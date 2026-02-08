@@ -1,41 +1,104 @@
-# Hurling Rules Test – Practice Quiz
+# GAA Referee Rules – Practice Quizzes
 
-Practice quiz for the GAA Hurling referee rules test. One quiz app, multiple years: choose the year on the start screen and get 50 questions, 2 marks each, 80% to pass. Optional 30-minute timer.
+Static web app for practising GAA Hurling and Gaelic Football referee rules. Multiple quizzes, optional timer, 2 marks per question, 80% to pass.
 
-## Adding another year
+## What’s included
 
-1. **Add the question file**  
-   Create `data/questions-YYYY.json` (e.g. `data/questions-2025.json`) with the same format as `data/questions-2026.json`: a JSON array of objects, each with `id`, `question`, `type` (`"single"` or `"multiple"`), `options` (array of `{ "key": "a", "text": "..." }`), and `correct` (single key string or array of keys for multiple).
+| Quiz | Description |
+|------|-------------|
+| **Hurling** | Official rules test practice. Choose year (2022, 2025, 2026), 50 questions. |
+| **Gaelic Football** | Official rules test practice. Choose year, 50 questions. |
+| **FRC Rules Review** | Football Review Committee rules & FAQ (e.g. kick-out, 4/3 structure, dissent). |
+| **Hurling General Knowledge** | Rule-book general knowledge (restarts, frees, puck-out, sideline, etc.). |
 
-2. **Register the year in the quiz**  
-   In `quiz.html`, find the line:
-   ```js
-   const AVAILABLE_YEARS = ['2026'];
-   ```
-   Add the new year, e.g.:
-   ```js
-   const AVAILABLE_YEARS = ['2026', '2025'];
-   ```
+- **Timer:** Optional 30-minute countdown (quiz pages or standalone `timer.html`).
+- **Offline:** Pure HTML/CSS/JS and JSON; works offline after first load if cached.
 
-No separate HTML file per year; the same quiz loads the chosen year’s JSON.
+## Run locally
 
-## Using on your iPhone (GitHub Pages)
+The app uses `fetch()` for question data, so open pages over HTTP, not as `file://`.
 
-1. **Push this project to GitHub**  
-   Create a new repo (e.g. `hurling-rules-quiz`), then:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git remote add origin https://github.com/YOUR_USERNAME/hurling-rules-quiz.git
-   git push -u origin main
-   ```
+**Option 1 – npm**
 
-2. **Turn on GitHub Pages**  
-   In the repo: **Settings → Pages**. Under “Build and deployment”, set **Source** to **Deploy from a branch**. Choose branch `main` and folder **/ (root)**. Save. After a minute or two the site will be at:
-   `https://YOUR_USERNAME.github.io/hurling-rules-quiz/`
+```bash
+npm install   # optional, only if you want npm scripts
+npm run serve
+```
 
-3. **Open on your iPhone**  
-   In Safari, go to `https://YOUR_USERNAME.github.io/hurling-rules-quiz/` — the root URL opens the quiz. Use **Add to Home Screen** (Share → Add to Home Screen) so it opens like an app.
+**Option 2 – npx (no install)**
 
-The quiz is static HTML/JS and works offline after the first load if your browser caches it.
+```bash
+npx serve .
+```
+
+Then open **http://localhost:3000** (or the URL shown). Use the home page to pick a quiz.
+
+## Project structure
+
+```
+├── index.html              # Home page (quiz cards)
+├── quiz.html               # Hurling rules test (multi-year)
+├── quiz-football.html      # Gaelic Football rules test
+├── quiz-football-frc.html  # FRC Rules Review
+├── quiz-hurling-gk.html    # Hurling General Knowledge
+├── timer.html              # Standalone 30-minute timer
+├── package.json            # Optional; "npm run serve" → npx serve
+├── assets/                 # Card images (hurling, football, FRC, hurling-gk)
+└── data/                   # Question sets (JSON)
+    ├── questions-2022.json
+    ├── questions-2025.json
+    ├── questions-2026.json   # Hurling rules test
+    ├── football-2025.json
+    ├── football-2026.json    # Gaelic Football rules test
+    ├── football-2026-frc.json
+    └── hurling-general-knowledge.json
+```
+
+## Question JSON format
+
+Each file is a JSON array of objects. Every question has:
+
+- `id` – number
+- `question` – string
+- `type` – `"single"` or `"multiple"`
+- `options` – array of `{ "key": "a", "text": "Answer text" }`
+- `correct` – one key string (e.g. `"a"`) or array of keys for multiple (e.g. `["a", "c"]`)
+
+Example:
+
+```json
+{
+  "id": 1,
+  "question": "How does the Referee start the game?",
+  "type": "single",
+  "options": [
+    { "key": "a", "text": "By throwing in the ball between two players from each team" },
+    { "key": "b", "text": "By blowing the whistle" }
+  ],
+  "correct": "a"
+}
+```
+
+## Adding content
+
+### New Hurling or Football rules test year
+
+1. Add `data/questions-YYYY.json` or `data/football-YYYY.json` in the same format as existing files.
+2. In `quiz.html` or `quiz-football.html`, add the year to the `AVAILABLE_YEARS` (or equivalent) array.
+
+### New Hurling General Knowledge questions
+
+Append objects to `data/hurling-general-knowledge.json` using the same `id`, `question`, `type`, `options`, `correct` format. IDs should be unique and increment (e.g. next after 46).
+
+### New FRC questions
+
+Edit `data/football-2026-frc.json` (same structure as above).
+
+## Deploy
+
+- **Vercel / Netlify:** Connect the repo; build command can be empty, publish the root.
+- **GitHub Pages:** Settings → Pages → Deploy from branch `main`, folder **/ (root)**. Site will be at `https://<username>.github.io/<repo-name>/`.
+
+## License
+
+Unlicense (or use as you like).
