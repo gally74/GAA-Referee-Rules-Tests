@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "How does the Referee start the game and restart it after half-time?",
+    "type": "single",
+    "options": [
+      { "key": "a", "text": "By throwing in the ball between two players from each team" },
+      { "key": "b", "text": "By blowing the whistle and throwing the ball to the centre" },
+      { "key": "c", "text": "By throwing in the ball between the two team captains" },
+      { "key": "d", "text": "By bouncing the ball in the centre circle" }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 2,
+    "question": "For the throw-in at the start of the game and after half-time, where must the two players from each team (involved in the throw-in) stand?",
+    "type": "single",
+    "options": [
+      { "key": "a", "text": "Side by side on the half-way line" },
+      { "key": "b", "text": "One behind the other in their own defensive sides of the half-way line" },
+      { "key": "c", "text": "In the centre circle" },
+      { "key": "d", "text": "Behind their own 45 m line" }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 3,
+    "question": "When the Referee throws in the ball to start the game or restart after half-time, where must all other players (not the four involved in the throw-in) be?",
+    "type": "single",
+    "options": [
+      { "key": "a", "text": "Anywhere in their own half" },
+      { "key": "b", "text": "In their respective positions behind the 45 m lines" },
+      { "key": "c", "text": "In the centre third of the field" },
+      { "key": "d", "text": "Behind the 65 m lines" }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 4,
+    "question": "After a foul, how is play normally restarted (unless an exception applies)?",
+    "type": "single",
+    "options": [
+      { "key": "a", "text": "By a free puck or a throw-in where the foul(s) occurred" },
+      { "key": "b", "text": "Always by a free puck from the centre of the 20m line" },
+      { "key": "c", "text": "Always by a throw-in on the half-way line" },
+      { "key": "d", "text": "By a free puck from the 45m line" }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 5,
+    "question": "For an Aggressive Foul by a defending player within the large rectangle, from where is the Penalty Puck taken?",
+    "type": "single",
+    "options": [
+      { "key": "a", "text": "Where the foul occurred" },
+      { "key": "b", "text": "The centre point of the 20m line" },
+      { "key": "c", "text": "The 13m line" },
+      { "key": "d", "text": "The 45m line" }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 6,
+    "question": "For a Technical Foul by a defending player within the large rectangle, from where is the Free Puck taken?",
+    "type": "single",
+    "options": [
+      { "key": "a", "text": "Where the foul occurred" },
+      { "key": "b", "text": "The centre point of the 20m line" },
+      { "key": "c", "text": "The 13m line" },
+      { "key": "d", "text": "The 45m line" }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 7,
+    "question": "A defending player commits a foul inside their own 20m line but outside the large rectangle. From where is the Free Puck awarded?",
+    "type": "single",
+    "options": [
+      { "key": "a", "text": "Where the foul occurred" },
+      { "key": "b", "text": "On the 20m line opposite where the foul occurred" },
+      { "key": "c", "text": "The centre point of the 20m line" },
+      { "key": "d", "text": "On the 13m line" }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 8,
+    "question": "When a player is fouled immediately after playing the ball away and a score results, what applies?",
+    "type": "single",
+    "options": [
+      { "key": "a", "text": "The score is disallowed and a free is given where the foul occurred" },
+      { "key": "b", "text": "The score shall stand" },
+      { "key": "c", "text": "The score is disallowed and a free is given from the 20m line" },
+      { "key": "d", "text": "A throw-in is given where the foul occurred" }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 9,
+    "question": "When a player is fouled immediately after playing the ball away and the ball lands over the endline, from where is the free given?",
+    "type": "single",
+    "options": [
+      { "key": "a", "text": "Where the foul occurred" },
+      { "key": "b", "text": "On the 20m line opposite the place where the ball crossed the endline" },
+      { "key": "c", "text": "The centre of the 20m line" },
+      { "key": "d", "text": "Where the ball crossed the endline" }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 10,
+    "question": "When a player is fouled immediately after playing the ball away and the ball lands inside the opponents' 20m line, from where is the free given?",
+    "type": "single",
+    "options": [
+      { "key": "a", "text": "Where the foul occurred" },
+      { "key": "b", "text": "From the 20m line at the point where the ball crossed this line" },
+      { "key": "c", "text": "The centre of the 20m line" },
+      { "key": "d", "text": "Where the ball landed" }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 11,
+    "question": "When play is restarted by a throw-in after a foul within 13m of the sideline, where is the throw-in taken?",
+    "type": "single",
+    "options": [
+      { "key": "a", "text": "Where the foul occurred" },
+      { "key": "b", "text": "13m from the sideline and directly infield from where the foul occurred" },
+      { "key": "c", "text": "On the 20m line" },
+      { "key": "d", "text": "On the half-way line" }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 12,
+    "question": "When play is restarted by a throw-in after a foul between the endline and the 20m line, where is the throw-in taken?",
+    "type": "single",
+    "options": [
+      { "key": "a", "text": "Where the foul occurred" },
+      { "key": "b", "text": "On the 20m line opposite where the foul occurred" },
+      { "key": "c", "text": "13m from the sideline" },
+      { "key": "d", "text": "The centre of the 20m line" }
+    ],
+    "correct": "b"
+  }
+]
