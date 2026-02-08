@@ -4,10 +4,22 @@
     "question": "A player challenges the referee's authority. Must the referee;",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Black card the offender" },
-      { "key": "b", "text": "Order the player off (red card)" },
-      { "key": "c", "text": "Note the offender" },
-      { "key": "d", "text": "Caution the player (yellow card)" }
+      {
+        "key": "a",
+        "text": "Black card the offender"
+      },
+      {
+        "key": "b",
+        "text": "Order the player off (red card)"
+      },
+      {
+        "key": "c",
+        "text": "Note the offender"
+      },
+      {
+        "key": "d",
+        "text": "Caution the player (yellow card)"
+      }
     ],
     "correct": "d"
   },
@@ -16,10 +28,22 @@
     "question": "An opposing team official is assaulted by a player during a game. Must the referee;",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Take no action but report the incident" },
-      { "key": "b", "text": "Order off (Red Card) the player" },
-      { "key": "c", "text": "Caution the player (Yellow Card) and order the official from the sideline" },
-      { "key": "d", "text": "Black Card the player" }
+      {
+        "key": "a",
+        "text": "Take no action but report the incident"
+      },
+      {
+        "key": "b",
+        "text": "Order off (Red Card) the player"
+      },
+      {
+        "key": "c",
+        "text": "Caution the player (Yellow Card) and order the official from the sideline"
+      },
+      {
+        "key": "d",
+        "text": "Black Card the player"
+      }
     ],
     "correct": "b"
   },
@@ -28,10 +52,22 @@
     "question": "In a game which goes to Extra Time a player commits a Noting Infraction during the playing of Extra Time, having previously been noted during the playing of ordinary time. Should the referee:",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Award a free kick and Note the player and warn him that a further noting will lead to a Caution (Yellow Card)" },
-      { "key": "b", "text": "Award a free kick and Black card the player" },
-      { "key": "c", "text": "Award a free kick and Caution the player (Yellow Card)" },
-      { "key": "d", "text": "Award a free kick only" }
+      {
+        "key": "a",
+        "text": "Award a free kick and Note the player and warn him that a further noting will lead to a Caution (Yellow Card)"
+      },
+      {
+        "key": "b",
+        "text": "Award a free kick and Black card the player"
+      },
+      {
+        "key": "c",
+        "text": "Award a free kick and Caution the player (Yellow Card)"
+      },
+      {
+        "key": "d",
+        "text": "Award a free kick only"
+      }
     ],
     "correct": "c"
   },
@@ -40,10 +76,22 @@
     "question": "What should the referee do when the ball strikes him and in so-doing is prevented from crossing the goal-line?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Award a penalty" },
-      { "key": "b", "text": "Award a goal" },
-      { "key": "c", "text": "Throw in the ball on the 13m line" },
-      { "key": "d", "text": "Throw the ball in on the 20m line" }
+      {
+        "key": "a",
+        "text": "Award a penalty"
+      },
+      {
+        "key": "b",
+        "text": "Award a goal"
+      },
+      {
+        "key": "c",
+        "text": "Throw in the ball on the 13m line"
+      },
+      {
+        "key": "d",
+        "text": "Throw the ball in on the 20m line"
+      }
     ],
     "correct": "d"
   },
@@ -52,9 +100,18 @@
     "question": "If a ball accidentally strikes the referee from a free must he;",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Allow the free kick to be retaken" },
-      { "key": "b", "text": "Stop the game and award a throw-in at the point where the ball struck him" },
-      { "key": "c", "text": "Allow play to continue" }
+      {
+        "key": "a",
+        "text": "Allow the free kick to be retaken"
+      },
+      {
+        "key": "b",
+        "text": "Stop the game and award a throw-in at the point where the ball struck him"
+      },
+      {
+        "key": "c",
+        "text": "Allow play to continue"
+      }
     ],
     "correct": "a"
   },
@@ -63,23 +120,56 @@
     "question": "Match the Infraction with the penalty. Which of the following pairings are correct? (Select all that apply)",
     "type": "multiple",
     "options": [
-      { "key": "a", "text": "Challenge the authority of a Referee → Caution (Yellow card)" },
-      { "key": "b", "text": "Show dissent with the Referee's decision to award a free kick to the opposing team → The free kick shall be taken 50m more advantageous" },
-      { "key": "c", "text": "Abusive language to a Referee → Order off (Red Card)" },
-      { "key": "d", "text": "Remonstrate in an aggressive manner with a Referee → Black Card" },
-      { "key": "e", "text": "Refuse to leave the field of play when ordered off → First give a three minute warning to the captain, then if the player refuses to comply, terminate the game" }
+      {
+        "key": "a",
+        "text": "Challenge the authority of a Referee → Caution (Yellow card)"
+      },
+      {
+        "key": "b",
+        "text": "Show dissent with the Referee's decision to award a free kick to the opposing team → The free kick shall be taken 50m more advantageous"
+      },
+      {
+        "key": "c",
+        "text": "Abusive language to a Referee → Order off (Red Card)"
+      },
+      {
+        "key": "d",
+        "text": "Remonstrate in an aggressive manner with a Referee → Black Card"
+      },
+      {
+        "key": "e",
+        "text": "Refuse to leave the field of play when ordered off → First give a three minute warning to the captain, then if the player refuses to comply, terminate the game"
+      }
     ],
-    "correct": ["a", "b", "c", "d", "e"]
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ]
   },
   {
     "id": 7,
     "question": "A linesman, who has gone on to the field to attend to an injured player, is struck by the ball in play. What is the correct award?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Throw-in the ball at the point where it struck the linesman" },
-      { "key": "b", "text": "Free kick to the team which last played the ball" },
-      { "key": "c", "text": "Play on" },
-      { "key": "d", "text": "Free kick to the opposing team" }
+      {
+        "key": "a",
+        "text": "Throw-in the ball at the point where it struck the linesman"
+      },
+      {
+        "key": "b",
+        "text": "Free kick to the team which last played the ball"
+      },
+      {
+        "key": "c",
+        "text": "Play on"
+      },
+      {
+        "key": "d",
+        "text": "Free kick to the opposing team"
+      }
     ],
     "correct": "a"
   },
@@ -88,11 +178,26 @@
     "question": "A player \"accidentally\" trips an opponent. What is the correct award?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Free kick only to the team of the player who was tripped" },
-      { "key": "b", "text": "Play On" },
-      { "key": "c", "text": "Free kick and Black Card for Cynical Behaviour infraction" },
-      { "key": "d", "text": "Free kick and noting" },
-      { "key": "e", "text": "Free kick and caution (Yellow Card)" }
+      {
+        "key": "a",
+        "text": "Free kick only to the team of the player who was tripped"
+      },
+      {
+        "key": "b",
+        "text": "Play On"
+      },
+      {
+        "key": "c",
+        "text": "Free kick and Black Card for Cynical Behaviour infraction"
+      },
+      {
+        "key": "d",
+        "text": "Free kick and noting"
+      },
+      {
+        "key": "e",
+        "text": "Free kick and caution (Yellow Card)"
+      }
     ],
     "correct": "a"
   },
@@ -101,10 +206,22 @@
     "question": "The ball, having been played by an attacking player, strikes the corner flag and comes back into the field of play. What is the correct award?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Allow play to continue" },
-      { "key": "b", "text": "Sideline kick to the defending team" },
-      { "key": "c", "text": "Throw-in on the 20m line, 13m in from the sideline" },
-      { "key": "d", "text": "Wide" }
+      {
+        "key": "a",
+        "text": "Allow play to continue"
+      },
+      {
+        "key": "b",
+        "text": "Sideline kick to the defending team"
+      },
+      {
+        "key": "c",
+        "text": "Throw-in on the 20m line, 13m in from the sideline"
+      },
+      {
+        "key": "d",
+        "text": "Wide"
+      }
     ],
     "correct": "b"
   },
@@ -113,10 +230,22 @@
     "question": "Which of the following is not an ordering off (Red Card) infraction?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "To spit at an opponent" },
-      { "key": "b", "text": "To use provocative language to an opponent" },
-      { "key": "c", "text": "To behave in any way which is dangerous to an opponent" },
-      { "key": "d", "text": "To kick an opponent with minimal force" }
+      {
+        "key": "a",
+        "text": "To spit at an opponent"
+      },
+      {
+        "key": "b",
+        "text": "To use provocative language to an opponent"
+      },
+      {
+        "key": "c",
+        "text": "To behave in any way which is dangerous to an opponent"
+      },
+      {
+        "key": "d",
+        "text": "To kick an opponent with minimal force"
+      }
     ],
     "correct": "b"
   },
@@ -125,11 +254,26 @@
     "question": "The attacking team is in possession inside the 13m line when the referee stops play to enable a seriously injured player to be treated on the field of play. How is play restarted?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "A free kick on the 13m line to the attacking team opposite the point where the play was stopped" },
-      { "key": "b", "text": "A throw-in at the position where the play was when stopped" },
-      { "key": "c", "text": "A throw-in on the 20m line opposite where the play was stopped" },
-      { "key": "d", "text": "A throw-in on the 13m line opposite the point where the play was stopped" },
-      { "key": "e", "text": "A free kick on the 20m line to the attacking team opposite the point where the play was stopped" }
+      {
+        "key": "a",
+        "text": "A free kick on the 13m line to the attacking team opposite the point where the play was stopped"
+      },
+      {
+        "key": "b",
+        "text": "A throw-in at the position where the play was when stopped"
+      },
+      {
+        "key": "c",
+        "text": "A throw-in on the 20m line opposite where the play was stopped"
+      },
+      {
+        "key": "d",
+        "text": "A throw-in on the 13m line opposite the point where the play was stopped"
+      },
+      {
+        "key": "e",
+        "text": "A free kick on the 20m line to the attacking team opposite the point where the play was stopped"
+      }
     ],
     "correct": "a"
   },
@@ -138,9 +282,18 @@
     "question": "A player deliberately lies on the ball to prevent an opponent playing it. Must the referee;",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Award a free against the offender" },
-      { "key": "b", "text": "Note the offender" },
-      { "key": "c", "text": "Stop the play and throw in the ball" }
+      {
+        "key": "a",
+        "text": "Award a free against the offender"
+      },
+      {
+        "key": "b",
+        "text": "Note the offender"
+      },
+      {
+        "key": "c",
+        "text": "Stop the play and throw in the ball"
+      }
     ],
     "correct": "a"
   },
@@ -149,21 +302,48 @@
     "question": "Match the following Infractions to the penalty associated with each. Which pairings are correct? (Select all that apply)",
     "type": "multiple",
     "options": [
-      { "key": "a", "text": "To remonstrate in an aggressive manner with the Referee → Black Card" },
-      { "key": "b", "text": "Abusive language towards a Referee → Order off (Red Card)" },
-      { "key": "c", "text": "To challenge the authority of a Referee → Caution (Yellow card)" },
-      { "key": "d", "text": "Refuse to leave the field of play when ordered off → First give a three minute warning to the captain, then if the player refuses to comply, terminate the game" },
-      { "key": "e", "text": "To show dissent with the Referee's decision to award a free kick to the opposing team → The free kick shall be taken 50m more advantageous" }
+      {
+        "key": "a",
+        "text": "To remonstrate in an aggressive manner with the Referee → Black Card"
+      },
+      {
+        "key": "b",
+        "text": "Abusive language towards a Referee → Order off (Red Card)"
+      },
+      {
+        "key": "c",
+        "text": "To challenge the authority of a Referee → Caution (Yellow card)"
+      },
+      {
+        "key": "d",
+        "text": "Refuse to leave the field of play when ordered off → First give a three minute warning to the captain, then if the player refuses to comply, terminate the game"
+      },
+      {
+        "key": "e",
+        "text": "To show dissent with the Referee's decision to award a free kick to the opposing team → The free kick shall be taken 50m more advantageous"
+      }
     ],
-    "correct": ["a", "b", "c", "d", "e"]
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ]
   },
   {
     "id": 14,
     "question": "If an attacking player carries the ball over his opponent's goal line, the referee should award a goal?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "True" },
-      { "key": "b", "text": "False" }
+      {
+        "key": "a",
+        "text": "True"
+      },
+      {
+        "key": "b",
+        "text": "False"
+      }
     ],
     "correct": "b"
   },
@@ -172,33 +352,75 @@
     "question": "Which of the following results in a penalty being awarded? (Tick all)",
     "type": "multiple",
     "options": [
-      { "key": "a", "text": "The goalkeeper takes 6 steps while in possession inside the small rectangle" },
-      { "key": "b", "text": "A defender pulls down an attacking player inside the large rectangle but outside the small rectangle" },
-      { "key": "c", "text": "An attacking player, 30m out is fouled after he kicks the ball and the ball lands inside the small rectangle" },
-      { "key": "d", "text": "The goalkeeper, while challenging for a ball, pushes an attacking player in the back, inside the large rectangle but outside the small rectangle" },
-      { "key": "e", "text": "A defender picks the ball directly from the ground outside the small rectangle but inside the large rectangle" }
+      {
+        "key": "a",
+        "text": "The goalkeeper takes 6 steps while in possession inside the small rectangle"
+      },
+      {
+        "key": "b",
+        "text": "A defender pulls down an attacking player inside the large rectangle but outside the small rectangle"
+      },
+      {
+        "key": "c",
+        "text": "An attacking player, 30m out is fouled after he kicks the ball and the ball lands inside the small rectangle"
+      },
+      {
+        "key": "d",
+        "text": "The goalkeeper, while challenging for a ball, pushes an attacking player in the back, inside the large rectangle but outside the small rectangle"
+      },
+      {
+        "key": "e",
+        "text": "A defender picks the ball directly from the ground outside the small rectangle but inside the large rectangle"
+      }
     ],
-    "correct": ["a", "b", "d"]
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ]
   },
   {
     "id": 16,
     "question": "Match the following Infractions to the penalty relating to them. Which pairings are correct? (Select all that apply)",
     "type": "multiple",
     "options": [
-      { "key": "a", "text": "Strike with the hand → Order off (Red Card)" },
-      { "key": "b", "text": "Engage in any other form of rough play → Caution (Yellow Card)" },
-      { "key": "c", "text": "Push an opponent with the hands → Free only" },
-      { "key": "d", "text": "Deliberate Pull Down → Black Card (Cynical Behaviour)" }
+      {
+        "key": "a",
+        "text": "Strike with the hand → Order off (Red Card)"
+      },
+      {
+        "key": "b",
+        "text": "Engage in any other form of rough play → Caution (Yellow Card)"
+      },
+      {
+        "key": "c",
+        "text": "Push an opponent with the hands → Free only"
+      },
+      {
+        "key": "d",
+        "text": "Deliberate Pull Down → Black Card (Cynical Behaviour)"
+      }
     ],
-    "correct": ["a", "b", "c", "d"]
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": 17,
     "question": "A defending player carries the ball over his own goal line, the referee must award a goal",
     "type": "single",
     "options": [
-      { "key": "a", "text": "True" },
-      { "key": "b", "text": "False" }
+      {
+        "key": "a",
+        "text": "True"
+      },
+      {
+        "key": "b",
+        "text": "False"
+      }
     ],
     "correct": "a"
   },
@@ -207,10 +429,22 @@
     "question": "Which of the following is not an ordering off (Red Card) infraction?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "To kick an opponent with minimal force" },
-      { "key": "b", "text": "To behave in any way which is dangerous to an opponent" },
-      { "key": "c", "text": "To spit at an opponent" },
-      { "key": "d", "text": "To use provocative language to an opponent" }
+      {
+        "key": "a",
+        "text": "To kick an opponent with minimal force"
+      },
+      {
+        "key": "b",
+        "text": "To behave in any way which is dangerous to an opponent"
+      },
+      {
+        "key": "c",
+        "text": "To spit at an opponent"
+      },
+      {
+        "key": "d",
+        "text": "To use provocative language to an opponent"
+      }
     ],
     "correct": "d"
   },
@@ -219,8 +453,14 @@
     "question": "The side-line officials bring an infraction of rough or dangerous play to the attention of the Referee during a break in play, what should the Referee do.",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Side-line Official is not allowed to bring any incident to attention of the Referees" },
-      { "key": "b", "text": "Apply the appropriate sanction as per rule." }
+      {
+        "key": "a",
+        "text": "Side-line Official is not allowed to bring any incident to attention of the Referees"
+      },
+      {
+        "key": "b",
+        "text": "Apply the appropriate sanction as per rule."
+      }
     ],
     "correct": "b"
   },
@@ -229,9 +469,18 @@
     "question": "A sideline kick is played by an opponent who is not 13m from the spot where the sideline ball was kicked. Should the referee;",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Award a free kick 13m more advantageous than the place of the original kick" },
-      { "key": "b", "text": "Order the sideline kick to be retaken" },
-      { "key": "c", "text": "Allow play to continue" }
+      {
+        "key": "a",
+        "text": "Award a free kick 13m more advantageous than the place of the original kick"
+      },
+      {
+        "key": "b",
+        "text": "Order the sideline kick to be retaken"
+      },
+      {
+        "key": "c",
+        "text": "Allow play to continue"
+      }
     ],
     "correct": "a"
   },
@@ -240,10 +489,22 @@
     "question": "The ball, having been played by a defending player, strikes the corner flag and comes back into the field of play. What is the correct award?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Throw-in on the 20m line, 13m in from the sideline" },
-      { "key": "b", "text": "Allow play to continue" },
-      { "key": "c", "text": "Sideline kick to the attacking team" },
-      { "key": "d", "text": "45m kick to the attacking team" }
+      {
+        "key": "a",
+        "text": "Throw-in on the 20m line, 13m in from the sideline"
+      },
+      {
+        "key": "b",
+        "text": "Allow play to continue"
+      },
+      {
+        "key": "c",
+        "text": "Sideline kick to the attacking team"
+      },
+      {
+        "key": "d",
+        "text": "45m kick to the attacking team"
+      }
     ],
     "correct": "c"
   },
@@ -252,11 +513,26 @@
     "question": "The penalty for charging, in a manner otherwise permissible the goalkeeper within the small rectangle is;",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Free only" },
-      { "key": "b", "text": "Caution (Yellow Card)" },
-      { "key": "c", "text": "Black Card" },
-      { "key": "d", "text": "Order Off (Red Card)" },
-      { "key": "e", "text": "Noting" }
+      {
+        "key": "a",
+        "text": "Free only"
+      },
+      {
+        "key": "b",
+        "text": "Caution (Yellow Card)"
+      },
+      {
+        "key": "c",
+        "text": "Black Card"
+      },
+      {
+        "key": "d",
+        "text": "Order Off (Red Card)"
+      },
+      {
+        "key": "e",
+        "text": "Noting"
+      }
     ],
     "correct": "a"
   },
@@ -265,10 +541,22 @@
     "question": "Which of the following is an ordering off (Red Card) infraction?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "To spit at opponent" },
-      { "key": "b", "text": "To block with the boot when an opponent is kicking the ball from the hands" },
-      { "key": "c", "text": "To deliberately pull down an opponent" },
-      { "key": "d", "text": "To threaten an opponent" }
+      {
+        "key": "a",
+        "text": "To spit at opponent"
+      },
+      {
+        "key": "b",
+        "text": "To block with the boot when an opponent is kicking the ball from the hands"
+      },
+      {
+        "key": "c",
+        "text": "To deliberately pull down an opponent"
+      },
+      {
+        "key": "d",
+        "text": "To threaten an opponent"
+      }
     ],
     "correct": "a"
   },
@@ -277,10 +565,22 @@
     "question": "An opposing player deliberately blocks, within 13m, the Free kick of a player who has been awarded a \"Mark\". What should the Referee do?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Award a free kick 13m more advantageous" },
-      { "key": "b", "text": "Allow play to continue" },
-      { "key": "c", "text": "Award a free kick at the point at which the ball is blocked" },
-      { "key": "d", "text": "Allow the free kick to be retaken" }
+      {
+        "key": "a",
+        "text": "Award a free kick 13m more advantageous"
+      },
+      {
+        "key": "b",
+        "text": "Allow play to continue"
+      },
+      {
+        "key": "c",
+        "text": "Award a free kick at the point at which the ball is blocked"
+      },
+      {
+        "key": "d",
+        "text": "Allow the free kick to be retaken"
+      }
     ],
     "correct": "a"
   },
@@ -289,9 +589,18 @@
     "question": "A player is fouled in possession, but the referee decides to allow 'advantage' but the player takes 6 steps before gaining advantage and scoring. Must the referee;",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Allow the score" },
-      { "key": "b", "text": "Award a free for the original foul" },
-      { "key": "c", "text": "Cancel the score and order a free out" }
+      {
+        "key": "a",
+        "text": "Allow the score"
+      },
+      {
+        "key": "b",
+        "text": "Award a free for the original foul"
+      },
+      {
+        "key": "c",
+        "text": "Cancel the score and order a free out"
+      }
     ],
     "correct": "b"
   },
@@ -300,10 +609,22 @@
     "question": "A player who has possession of the football has the ball pulled from him by an opponent with both hands. What is the correct decision?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Throw-in the ball between a player from each side" },
-      { "key": "b", "text": "Award a free-kick to the player who originally had possession, and Note the offender" },
-      { "key": "c", "text": "Allow play to continue" },
-      { "key": "d", "text": "Award a free-kick to the player who originally had possession, with no other action" }
+      {
+        "key": "a",
+        "text": "Throw-in the ball between a player from each side"
+      },
+      {
+        "key": "b",
+        "text": "Award a free-kick to the player who originally had possession, and Note the offender"
+      },
+      {
+        "key": "c",
+        "text": "Allow play to continue"
+      },
+      {
+        "key": "d",
+        "text": "Award a free-kick to the player who originally had possession, with no other action"
+      }
     ],
     "correct": "d"
   },
@@ -312,10 +633,22 @@
     "question": "Which of the following is not a \"free only\" infraction?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "To push an opponent with the hands" },
-      { "key": "b", "text": "To hold an opponent with the hands" },
-      { "key": "c", "text": "While in possession of the ball to charge an opponent" },
-      { "key": "d", "text": "To charge (in a manner otherwise permissible) the goalkeeper in the small rectangle" }
+      {
+        "key": "a",
+        "text": "To push an opponent with the hands"
+      },
+      {
+        "key": "b",
+        "text": "To hold an opponent with the hands"
+      },
+      {
+        "key": "c",
+        "text": "While in possession of the ball to charge an opponent"
+      },
+      {
+        "key": "d",
+        "text": "To charge (in a manner otherwise permissible) the goalkeeper in the small rectangle"
+      }
     ],
     "correct": "b"
   },
@@ -324,9 +657,18 @@
     "question": "How far are defenders and attackers obliged to be from the player taking a free or sideline kick?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "10 Metres" },
-      { "key": "b", "text": "20 Metres" },
-      { "key": "c", "text": "13 Metres" }
+      {
+        "key": "a",
+        "text": "10 Metres"
+      },
+      {
+        "key": "b",
+        "text": "20 Metres"
+      },
+      {
+        "key": "c",
+        "text": "13 Metres"
+      }
     ],
     "correct": "c"
   },
@@ -335,11 +677,26 @@
     "question": "The correct award for holding an opponent is?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Free only" },
-      { "key": "b", "text": "Free and Black card" },
-      { "key": "c", "text": "Free and Order off (Red Card)" },
-      { "key": "d", "text": "Free and Caution (Yellow Card)" },
-      { "key": "e", "text": "Free and Note" }
+      {
+        "key": "a",
+        "text": "Free only"
+      },
+      {
+        "key": "b",
+        "text": "Free and Black card"
+      },
+      {
+        "key": "c",
+        "text": "Free and Order off (Red Card)"
+      },
+      {
+        "key": "d",
+        "text": "Free and Caution (Yellow Card)"
+      },
+      {
+        "key": "e",
+        "text": "Free and Note"
+      }
     ],
     "correct": "e"
   },
@@ -348,24 +705,58 @@
     "question": "Which of the following are immediate ordering off (Red Card) infractions? (Please select all).",
     "type": "multiple",
     "options": [
-      { "key": "a", "text": "To use threatening language to a Sideline Official" },
-      { "key": "b", "text": "To contribute to a melee" },
-      { "key": "c", "text": "To spit at an opponent" },
-      { "key": "d", "text": "To deliberately collide with an opponent to take him out of a movement of play" },
-      { "key": "e", "text": "To assault an opposing Team Official" },
-      { "key": "f", "text": "To remonstrate in an aggressive manner with a Match Official" }
+      {
+        "key": "a",
+        "text": "To use threatening language to a Sideline Official"
+      },
+      {
+        "key": "b",
+        "text": "To contribute to a melee"
+      },
+      {
+        "key": "c",
+        "text": "To spit at an opponent"
+      },
+      {
+        "key": "d",
+        "text": "To deliberately collide with an opponent to take him out of a movement of play"
+      },
+      {
+        "key": "e",
+        "text": "To assault an opposing Team Official"
+      },
+      {
+        "key": "f",
+        "text": "To remonstrate in an aggressive manner with a Match Official"
+      }
     ],
-    "correct": ["a", "c", "e"]
+    "correct": [
+      "a",
+      "c",
+      "e"
+    ]
   },
   {
     "id": 31,
     "question": "If a ball accidentally strikes the linesman which prevents it from going over the sideline must the referee;",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Stop the game and award a throw-in 13m from the sideline in a direct line with the place where the ball struck the linesman" },
-      { "key": "b", "text": "Award a sideline kick" },
-      { "key": "c", "text": "Stop the game and award a throw-in at the point where the ball struck the linesman" },
-      { "key": "d", "text": "Allow play to continue" }
+      {
+        "key": "a",
+        "text": "Stop the game and award a throw-in 13m from the sideline in a direct line with the place where the ball struck the linesman"
+      },
+      {
+        "key": "b",
+        "text": "Award a sideline kick"
+      },
+      {
+        "key": "c",
+        "text": "Stop the game and award a throw-in at the point where the ball struck the linesman"
+      },
+      {
+        "key": "d",
+        "text": "Allow play to continue"
+      }
     ],
     "correct": "b"
   },
@@ -374,8 +765,14 @@
     "question": "In Inter-County games all substitutions must be from players on the list submitted to the Referee",
     "type": "single",
     "options": [
-      { "key": "a", "text": "True" },
-      { "key": "b", "text": "False" }
+      {
+        "key": "a",
+        "text": "True"
+      },
+      {
+        "key": "b",
+        "text": "False"
+      }
     ],
     "correct": "a"
   },
@@ -384,8 +781,14 @@
     "question": "In the event of a player receiving an injury which results in bleeding, is the Referee obliged in rule to order the player to leave the field of play to receive treatment.",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Yes" },
-      { "key": "b", "text": "No" }
+      {
+        "key": "a",
+        "text": "Yes"
+      },
+      {
+        "key": "b",
+        "text": "No"
+      }
     ],
     "correct": "a"
   },
@@ -394,11 +797,26 @@
     "question": "For extra time in a club game how many changes are permitted for the start of extra time from the team which finished normal time?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Any 15 may start extra time (except those sent off during normal time)" },
-      { "key": "b", "text": "One" },
-      { "key": "c", "text": "None" },
-      { "key": "d", "text": "Five" },
-      { "key": "e", "text": "Three" }
+      {
+        "key": "a",
+        "text": "Any 15 may start extra time (except those sent off during normal time)"
+      },
+      {
+        "key": "b",
+        "text": "One"
+      },
+      {
+        "key": "c",
+        "text": "None"
+      },
+      {
+        "key": "d",
+        "text": "Five"
+      },
+      {
+        "key": "e",
+        "text": "Three"
+      }
     ],
     "correct": "a"
   },
@@ -407,11 +825,26 @@
     "question": "Prior to the start of a game two players from opposing sides attempt to strike each other with the hand. What action must the referee take? (Note: The referee has not received the team sheets).",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Caution both players" },
-      { "key": "b", "text": "Order both off and do not allow substitutes" },
-      { "key": "c", "text": "Take no action but include in his Referee's Report" },
-      { "key": "d", "text": "Take no action" },
-      { "key": "e", "text": "Order both off and allow substitutes" }
+      {
+        "key": "a",
+        "text": "Caution both players"
+      },
+      {
+        "key": "b",
+        "text": "Order both off and do not allow substitutes"
+      },
+      {
+        "key": "c",
+        "text": "Take no action but include in his Referee's Report"
+      },
+      {
+        "key": "d",
+        "text": "Take no action"
+      },
+      {
+        "key": "e",
+        "text": "Order both off and allow substitutes"
+      }
     ],
     "correct": "e"
   },
@@ -420,11 +853,26 @@
     "question": "Prior to the start of a game two players from opposing sides attempt to strike each other with the hand. What action must the referee take? (Note: The referee has received the team sheets).",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Caution both players" },
-      { "key": "b", "text": "Take no action" },
-      { "key": "c", "text": "Take no action but include in his Referee's Report" },
-      { "key": "d", "text": "Order both off and do not allow substitutes" },
-      { "key": "e", "text": "Order both off and allow substitutes" }
+      {
+        "key": "a",
+        "text": "Caution both players"
+      },
+      {
+        "key": "b",
+        "text": "Take no action"
+      },
+      {
+        "key": "c",
+        "text": "Take no action but include in his Referee's Report"
+      },
+      {
+        "key": "d",
+        "text": "Order both off and do not allow substitutes"
+      },
+      {
+        "key": "e",
+        "text": "Order both off and allow substitutes"
+      }
     ],
     "correct": "d"
   },
@@ -433,9 +881,18 @@
     "question": "The ball goes wide. Is the referee obliged by rule to blow his whistle?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "It is up to the referee" },
-      { "key": "b", "text": "Yes" },
-      { "key": "c", "text": "No" }
+      {
+        "key": "a",
+        "text": "It is up to the referee"
+      },
+      {
+        "key": "b",
+        "text": "Yes"
+      },
+      {
+        "key": "c",
+        "text": "No"
+      }
     ],
     "correct": "b"
   },
@@ -444,9 +901,18 @@
     "question": "In an Inter-County Senior Championship game the interval shall consist of a maximum of?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "20 minutes" },
-      { "key": "b", "text": "10 minutes" },
-      { "key": "c", "text": "15 minutes" }
+      {
+        "key": "a",
+        "text": "20 minutes"
+      },
+      {
+        "key": "b",
+        "text": "10 minutes"
+      },
+      {
+        "key": "c",
+        "text": "15 minutes"
+      }
     ],
     "correct": "c"
   },
@@ -455,8 +921,14 @@
     "question": "The Referee's Report should contain the names of the umpires and linesmen.",
     "type": "single",
     "options": [
-      { "key": "a", "text": "No" },
-      { "key": "b", "text": "Yes" }
+      {
+        "key": "a",
+        "text": "No"
+      },
+      {
+        "key": "b",
+        "text": "Yes"
+      }
     ],
     "correct": "b"
   },
@@ -465,8 +937,14 @@
     "question": "The referee has the authority to order a goalkeeper to change a jersey if it is the same colour as the opposition jerseys",
     "type": "single",
     "options": [
-      { "key": "a", "text": "True" },
-      { "key": "b", "text": "False" }
+      {
+        "key": "a",
+        "text": "True"
+      },
+      {
+        "key": "b",
+        "text": "False"
+      }
     ],
     "correct": "a"
   },
@@ -475,10 +953,22 @@
     "question": "In the event of a player refusing to comply with the Referee's instruction to remove or make safe an item of equipment, dress or jewellery which could cause injury, the Referee must",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Instruct that the player is substituted" },
-      { "key": "b", "text": "Ignore the situation" },
-      { "key": "c", "text": "Caution (Yellow card) the player" },
-      { "key": "d", "text": "Order off (Red card) the player" }
+      {
+        "key": "a",
+        "text": "Instruct that the player is substituted"
+      },
+      {
+        "key": "b",
+        "text": "Ignore the situation"
+      },
+      {
+        "key": "c",
+        "text": "Caution (Yellow card) the player"
+      },
+      {
+        "key": "d",
+        "text": "Order off (Red card) the player"
+      }
     ],
     "correct": "c"
   },
@@ -487,8 +977,14 @@
     "question": "A player receives a caution (Yellow Card) during \"normal time\" and is again cautioned (Yellow Card) during the playing of extra time. Must the player then be sent off (red card)?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "No" },
-      { "key": "b", "text": "Yes" }
+      {
+        "key": "a",
+        "text": "No"
+      },
+      {
+        "key": "b",
+        "text": "Yes"
+      }
     ],
     "correct": "b"
   },
@@ -497,23 +993,55 @@
     "question": "Which of the following should be contained in the Referee's Report? (Select all correct)",
     "type": "multiple",
     "options": [
-      { "key": "a", "text": "The names of the secretaries" },
-      { "key": "b", "text": "The identity of the captains" },
-      { "key": "c", "text": "The names of the umpires" },
-      { "key": "d", "text": "The names of the two team managers" },
-      { "key": "e", "text": "The names of temporary substitutions" },
-      { "key": "f", "text": "The final score" },
-      { "key": "g", "text": "The starting time of the game" }
+      {
+        "key": "a",
+        "text": "The names of the secretaries"
+      },
+      {
+        "key": "b",
+        "text": "The identity of the captains"
+      },
+      {
+        "key": "c",
+        "text": "The names of the umpires"
+      },
+      {
+        "key": "d",
+        "text": "The names of the two team managers"
+      },
+      {
+        "key": "e",
+        "text": "The names of temporary substitutions"
+      },
+      {
+        "key": "f",
+        "text": "The final score"
+      },
+      {
+        "key": "g",
+        "text": "The starting time of the game"
+      }
     ],
-    "correct": ["c", "e", "f", "g"]
+    "correct": [
+      "c",
+      "e",
+      "f",
+      "g"
+    ]
   },
   {
     "id": 44,
     "question": "If the referee blows his whistle for a free to be taken and then realises that he has made a mistake, is he permitted in Rule to alter his decision?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Yes" },
-      { "key": "b", "text": "No" }
+      {
+        "key": "a",
+        "text": "Yes"
+      },
+      {
+        "key": "b",
+        "text": "No"
+      }
     ],
     "correct": "b"
   },
@@ -522,9 +1050,18 @@
     "question": "At the commencement of play the referee shall toss a coin for choice of ends in the presence of:",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Any two players nominated by team officials" },
-      { "key": "b", "text": "The team captains" },
-      { "key": "c", "text": "A player or team official from each side" }
+      {
+        "key": "a",
+        "text": "Any two players nominated by team officials"
+      },
+      {
+        "key": "b",
+        "text": "The team captains"
+      },
+      {
+        "key": "c",
+        "text": "A player or team official from each side"
+      }
     ],
     "correct": "b"
   },
@@ -533,11 +1070,26 @@
     "question": "A player uses abusive or provocative language or gestures to a team-mate. Must the referee;",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Black Card the offender and award a throw-in" },
-      { "key": "b", "text": "Award a free to the opposing team" },
-      { "key": "c", "text": "Black Card the offender and award a free" },
-      { "key": "d", "text": "Caution the player (Yellow Card) and award a throw-in" },
-      { "key": "e", "text": "Caution the player (Yellow Card) and award a free" }
+      {
+        "key": "a",
+        "text": "Black Card the offender and award a throw-in"
+      },
+      {
+        "key": "b",
+        "text": "Award a free to the opposing team"
+      },
+      {
+        "key": "c",
+        "text": "Black Card the offender and award a free"
+      },
+      {
+        "key": "d",
+        "text": "Caution the player (Yellow Card) and award a throw-in"
+      },
+      {
+        "key": "e",
+        "text": "Caution the player (Yellow Card) and award a free"
+      }
     ],
     "correct": "e"
   },
@@ -546,24 +1098,58 @@
     "question": "Which of the following are Cynical Behaviour (Black Card) Infractions? (Please select all)",
     "type": "multiple",
     "options": [
-      { "key": "a", "text": "To deliberately pull down an opponent" },
-      { "key": "b", "text": "To deliberately trip an opponent with the foot" },
-      { "key": "c", "text": "To engage in any other form of rough play" },
-      { "key": "d", "text": "To deliberately collide with an opponent for the purpose of taking him out of a movement of play" },
-      { "key": "e", "text": "To contribute to a melee" },
-      { "key": "f", "text": "To use abusive gestures to a team-mate" },
-      { "key": "g", "text": "To use abusive language to a Referee" }
+      {
+        "key": "a",
+        "text": "To deliberately pull down an opponent"
+      },
+      {
+        "key": "b",
+        "text": "To deliberately trip an opponent with the foot"
+      },
+      {
+        "key": "c",
+        "text": "To engage in any other form of rough play"
+      },
+      {
+        "key": "d",
+        "text": "To deliberately collide with an opponent for the purpose of taking him out of a movement of play"
+      },
+      {
+        "key": "e",
+        "text": "To contribute to a melee"
+      },
+      {
+        "key": "f",
+        "text": "To use abusive gestures to a team-mate"
+      },
+      {
+        "key": "g",
+        "text": "To use abusive language to a Referee"
+      }
     ],
-    "correct": ["a", "b", "d"]
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ]
   },
   {
     "id": 48,
     "question": "Under the Playing Rules if a defending player makes an Advanced Mark inside the 13m line the free-kick (if availed of) shall be taken from where?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "The 13m line directly in line with where the Mark is awarded" },
-      { "key": "b", "text": "The 20m line directly in line with where the Mark is awarded" },
-      { "key": "c", "text": "The point at which the Mark is awarded" }
+      {
+        "key": "a",
+        "text": "The 13m line directly in line with where the Mark is awarded"
+      },
+      {
+        "key": "b",
+        "text": "The 20m line directly in line with where the Mark is awarded"
+      },
+      {
+        "key": "c",
+        "text": "The point at which the Mark is awarded"
+      }
     ],
     "correct": "c"
   },
@@ -572,9 +1158,18 @@
     "question": "Under the Playing Rules, a player who commits a Cynical Behaviour Infraction (Black Card) is ordered to the Sin-bin for how long?",
     "type": "single",
     "options": [
-      { "key": "a", "text": "15 minutes" },
-      { "key": "b", "text": "5 minutes" },
-      { "key": "c", "text": "10 minutes" }
+      {
+        "key": "a",
+        "text": "15 minutes"
+      },
+      {
+        "key": "b",
+        "text": "5 minutes"
+      },
+      {
+        "key": "c",
+        "text": "10 minutes"
+      }
     ],
     "correct": "c"
   },
@@ -583,10 +1178,22 @@
     "question": "Under the Playing Rules the maximum number of substitutes allowed is",
     "type": "single",
     "options": [
-      { "key": "a", "text": "Four" },
-      { "key": "b", "text": "Six" },
-      { "key": "c", "text": "Three" },
-      { "key": "d", "text": "Five" }
+      {
+        "key": "a",
+        "text": "Four"
+      },
+      {
+        "key": "b",
+        "text": "Six"
+      },
+      {
+        "key": "c",
+        "text": "Three"
+      },
+      {
+        "key": "d",
+        "text": "Five"
+      }
     ],
     "correct": "d"
   }

@@ -1,0 +1,1903 @@
+[
+  {
+    "id": 51,
+    "question": "Under the 4/3 Structure Rule (Core Enhancement 5A), during play a team must have at least how many players in their own half, and at least how many outfield players in the opposition half?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "At least 4 in own half (goalkeeper may be included), at least 3 outfield in opposition half"
+      },
+      {
+        "key": "b",
+        "text": "At least 3 in own half, at least 4 outfield in opposition half"
+      },
+      {
+        "key": "c",
+        "text": "At least 4 outfield in own half, at least 3 in opposition half"
+      },
+      {
+        "key": "d",
+        "text": "At least 5 in own half, at least 2 in opposition half"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 52,
+    "question": "A breach of the 4/3 Structure Rule does NOT occur where the player(s) who would otherwise cause the breach: (Select all that apply)",
+    "type": "multiple",
+    "options": [
+      {
+        "key": "a",
+        "text": "Has done so unintentionally"
+      },
+      {
+        "key": "b",
+        "text": "Is within 4m of the halfway line"
+      },
+      {
+        "key": "c",
+        "text": "Is not interfering with play or an opponent"
+      },
+      {
+        "key": "d",
+        "text": "Is not gaining an advantage"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": 53,
+    "question": "A player crosses the halfway line in the act of carrying the ball and leaves less than 3 teammates in the opposition half. Where is the free kick taken?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "On the offending team's 20m line"
+      },
+      {
+        "key": "b",
+        "text": "At the point where the player crossed the halfway line, to the opposition"
+      },
+      {
+        "key": "c",
+        "text": "On the 45m line"
+      },
+      {
+        "key": "d",
+        "text": "At the centre of the halfway line"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 54,
+    "question": "If the defending team withdraws too many players and fails to keep 3 in the opposition half, where is the free kick awarded?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "At the point where the breach occurred"
+      },
+      {
+        "key": "b",
+        "text": "On the offending team's 20m line"
+      },
+      {
+        "key": "c",
+        "text": "On the halfway line"
+      },
+      {
+        "key": "d",
+        "text": "On the opposition's 45m line"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 55,
+    "question": "If the attacking team pushes too many players forward and fails to keep 4 in their own half, where is the free kick awarded?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "On the offending team's 20m line"
+      },
+      {
+        "key": "b",
+        "text": "At the point where the player crossed the halfway line"
+      },
+      {
+        "key": "c",
+        "text": "On the halfway line"
+      },
+      {
+        "key": "d",
+        "text": "On the opposition's 13m line"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 56,
+    "question": "When a team is awarded a free for a 4/3 structure breach, what option do they have?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "They must take the free from the awarded position only"
+      },
+      {
+        "key": "b",
+        "text": "They may bring the ball out to the 40m arc to attempt a two-point score"
+      },
+      {
+        "key": "c",
+        "text": "They may choose a penalty kick instead"
+      },
+      {
+        "key": "d",
+        "text": "They may substitute a player without it counting"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 57,
+    "question": "A team has a player ordered off (or sin-binned). Must they still comply with the 4/3 structure?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No, the structure requirement is waived when a player is off"
+      },
+      {
+        "key": "b",
+        "text": "Yes, they must maintain the 4 vs 3 structure"
+      },
+      {
+        "key": "c",
+        "text": "Only if the player was red-carded"
+      },
+      {
+        "key": "d",
+        "text": "Only in the first half"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 58,
+    "question": "Under Core Enhancement 2A (Kick-Outs), when may the kick-out be taken?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only after all players are outside the 20m line"
+      },
+      {
+        "key": "b",
+        "text": "The kick-out may be taken before all players are outside the 20m line; players may remain inside"
+      },
+      {
+        "key": "c",
+        "text": "Only after all players are outside the 40m arc"
+      },
+      {
+        "key": "d",
+        "text": "Only when the goalkeeper is in the small rectangle"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 59,
+    "question": "If a player infringes the goalkeeper or another opposition player who is taking the kick-out, what is the penalty?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Free kick to the infringed team on their 20m line"
+      },
+      {
+        "key": "b",
+        "text": "Free kick awarded at the halfway line"
+      },
+      {
+        "key": "c",
+        "text": "Kick-out retaken"
+      },
+      {
+        "key": "d",
+        "text": "Yellow card and free on 13m line"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 60,
+    "question": "If the goalkeeper is not taking the kick-out, where must the goalkeeper stay?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Outside the 20m line"
+      },
+      {
+        "key": "b",
+        "text": "In the small rectangle"
+      },
+      {
+        "key": "c",
+        "text": "On the goal line"
+      },
+      {
+        "key": "d",
+        "text": "Outside the 40m arc"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 61,
+    "question": "Before another player on the attacking team may play the ball from a kick-out, the ball must:",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Cross the 20m line only"
+      },
+      {
+        "key": "b",
+        "text": "Travel beyond the 20m line and outside the 40m arc"
+      },
+      {
+        "key": "c",
+        "text": "Be at least 13m from the goal"
+      },
+      {
+        "key": "d",
+        "text": "Touch the ground outside the small rectangle"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 62,
+    "question": "At a kick-out, players may remain inside the 40m arc but must not be closer than how many metres from the ball?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "10m"
+      },
+      {
+        "key": "b",
+        "text": "13m"
+      },
+      {
+        "key": "c",
+        "text": "20m"
+      },
+      {
+        "key": "d",
+        "text": "4m"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 63,
+    "question": "A player in direct receipt of a kick-out may not pass the ball to their team's goalkeeper or to the player who took the kick-out:",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Unless they are outside the 40m arc"
+      },
+      {
+        "key": "b",
+        "text": "Without another player playing the ball first"
+      },
+      {
+        "key": "c",
+        "text": "Unless the referee permits it"
+      },
+      {
+        "key": "d",
+        "text": "Under any circumstances"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 64,
+    "question": "Under Core Enhancement 3A, inside the halfway line the goalkeeper can only receive the ball from a teammate when:",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "The ball is played from outside the 45m line"
+      },
+      {
+        "key": "b",
+        "text": "The teammate passing the ball is within the large rectangle"
+      },
+      {
+        "key": "c",
+        "text": "The goalkeeper is outside the small rectangle"
+      },
+      {
+        "key": "d",
+        "text": "The pass is a hand pass"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 65,
+    "question": "If the goalkeeper receives a pass from a teammate inside the large rectangle, may they advance the ball outside the large rectangle?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No, they must kick it out"
+      },
+      {
+        "key": "b",
+        "text": "Yes, without restriction (subject to the goalkeeping rule on receiving passes beyond the midfield line)"
+      },
+      {
+        "key": "c",
+        "text": "Only after an opponent has touched the ball"
+      },
+      {
+        "key": "d",
+        "text": "Only within 5 seconds"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 66,
+    "question": "If the goalkeeper intercepts the ball from an opposing player anywhere on the pitch, may they advance the ball?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No, they must release it within the large rectangle"
+      },
+      {
+        "key": "b",
+        "text": "Yes, without restriction (subject to the goalkeeping rule on receiving passes beyond the midfield line)"
+      },
+      {
+        "key": "c",
+        "text": "Only if they are inside their own 45m line"
+      },
+      {
+        "key": "d",
+        "text": "Only after throwing the ball"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 67,
+    "question": "When a player shows dissent with the referee's decision to award a free to the opposing team, from where is the free kick taken?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "From the original position only"
+      },
+      {
+        "key": "b",
+        "text": "50 metres more advantageous than the original position, up to the opponents' 13m line"
+      },
+      {
+        "key": "c",
+        "text": "From the halfway line"
+      },
+      {
+        "key": "d",
+        "text": "From the 45m line"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 68,
+    "question": "When the 50m dissent advantage is applied, may the player taking the free choose to take it from outside the 40m arc even if the 50m advantage would place it inside the arc?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No, the kick must be from the 50m advantage position"
+      },
+      {
+        "key": "b",
+        "text": "Yes, the player has the option to take the free from outside the 40m arc"
+      },
+      {
+        "key": "c",
+        "text": "Only with the referee's permission"
+      },
+      {
+        "key": "d",
+        "text": "Only in extra time"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 69,
+    "question": "At Under 18 or younger grades, an offender ordered off for ten minutes to the Sin Bin is shown which card?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yellow Card"
+      },
+      {
+        "key": "b",
+        "text": "Red Card"
+      },
+      {
+        "key": "c",
+        "text": "Black Card"
+      },
+      {
+        "key": "d",
+        "text": "No card is shown"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "id": 70,
+    "question": "At Under 18 or younger grades, when a player is ordered off to the Sin Bin for ten minutes, may they be replaced?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No, the team plays with 14 for ten minutes"
+      },
+      {
+        "key": "b",
+        "text": "Yes, they may be replaced immediately by a Temporary Substitute for the duration"
+      },
+      {
+        "key": "c",
+        "text": "Only after five minutes"
+      },
+      {
+        "key": "d",
+        "text": "Yes, but it counts as one of the team's substitutions"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 71,
+    "question": "What is the primary principle for a referee's positioning regarding the ball during open and set plays?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Stay level with the ball at all times"
+      },
+      {
+        "key": "b",
+        "text": "Try to be ahead of the ball as much as possible"
+      },
+      {
+        "key": "c",
+        "text": "Remain close to the halfway line"
+      },
+      {
+        "key": "d",
+        "text": "Follow the ball from behind"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 72,
+    "question": "When is it a particularly good time for the referee to be constantly ahead of the ball?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "During kick-outs only"
+      },
+      {
+        "key": "b",
+        "text": "When the ball is being played from side to side"
+      },
+      {
+        "key": "c",
+        "text": "Only in the last five minutes"
+      },
+      {
+        "key": "d",
+        "text": "When a team is attacking quickly"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "id": 73,
+    "question": "Kick-out: Can the goalkeeper take a kick-out immediately after a score or wide?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yes. You do not have to wait for players to be outside the 20m line or the referee's consent"
+      },
+      {
+        "key": "b",
+        "text": "No. All players must be outside the 20m line first"
+      },
+      {
+        "key": "c",
+        "text": "No. The referee must give consent before the kick-out"
+      },
+      {
+        "key": "d",
+        "text": "Only after a score, not after a wide"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 74,
+    "question": "Kick-out: Are there any restrictions for players on either team staying inside the 40m arc?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. You just need to be 13m from the ball"
+      },
+      {
+        "key": "b",
+        "text": "Yes. All players must be outside the 40m arc before the kick-out"
+      },
+      {
+        "key": "c",
+        "text": "Yes. Only the attacking team may have players inside the 40m arc"
+      },
+      {
+        "key": "d",
+        "text": "Yes. Players must be at least 20m from the ball"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 75,
+    "question": "Kick-out: What happens if you interfere with the goalkeeper or the player taking the kick-out?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "It's a 50m penalty; the ball will be brought up to the halfway line"
+      },
+      {
+        "key": "b",
+        "text": "The kick-out is retaken"
+      },
+      {
+        "key": "c",
+        "text": "A free kick to the opposing team on the 20m line"
+      },
+      {
+        "key": "d",
+        "text": "A yellow card and free from the 13m line"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 76,
+    "question": "Kick-out: I'm on the team taking the kick-out and I catch the ball inside the 40m arc. Can I play on?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. It's a free kick against you from the position you received the ball"
+      },
+      {
+        "key": "b",
+        "text": "Yes. You may play on as normal"
+      },
+      {
+        "key": "c",
+        "text": "Yes, but only if you hand-pass first"
+      },
+      {
+        "key": "d",
+        "text": "The kick-out is retaken"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 77,
+    "question": "Kick-out: Can you intercept an opposition kick-out inside the 40m arc?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yes. Play on, provided you were 13m from the ball when it was kicked"
+      },
+      {
+        "key": "b",
+        "text": "No. It's a free kick against you from where you caught it"
+      },
+      {
+        "key": "c",
+        "text": "No. The ball must go outside the 40m arc before any player can play it"
+      },
+      {
+        "key": "d",
+        "text": "Yes, but only if you were outside the 20m line when it was kicked"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 78,
+    "question": "Solo & Go: If you tap your foot off the ball, is that considered a solo & go?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. It must be a 'toe-tap' – the ball must be released from the hand(s) to the foot and kicked back into the hand(s)"
+      },
+      {
+        "key": "b",
+        "text": "Yes. Any contact between foot and ball counts as a solo"
+      },
+      {
+        "key": "c",
+        "text": "Yes, provided the ball touches the ground first"
+      },
+      {
+        "key": "d",
+        "text": "Only if you use the same foot twice"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 79,
+    "question": "Solo & Go: Can any player take a solo & go?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yes"
+      },
+      {
+        "key": "b",
+        "text": "No. Only outfield players"
+      },
+      {
+        "key": "c",
+        "text": "No. Only the player in possession when the ball is put in play"
+      },
+      {
+        "key": "d",
+        "text": "Only after a kick-out or free kick"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 80,
+    "question": "Solo & Go: Can you take a solo & go anywhere on the pitch?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "There is one exception – you cannot take it inside the opposition 20m line"
+      },
+      {
+        "key": "b",
+        "text": "Yes. Anywhere on the pitch with no exceptions"
+      },
+      {
+        "key": "c",
+        "text": "No. Only between the 45m lines"
+      },
+      {
+        "key": "d",
+        "text": "No. You cannot take it inside either 20m line"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 81,
+    "question": "Solo & Go: If you're fouled, can you give the ball to another player on your team so they can take a solo & go?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yes. But don't delay – a solo & go must be taken immediately when you were awarded a free kick"
+      },
+      {
+        "key": "b",
+        "text": "No. Only the fouled player may take the solo & go"
+      },
+      {
+        "key": "c",
+        "text": "Yes, and there is no time limit"
+      },
+      {
+        "key": "d",
+        "text": "No. The ball must be kicked from the free kick position first"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 82,
+    "question": "Solo & Go: If you're fouled, do you need to take the solo & go from the position where the foul occurred?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. You can take a solo & go up to 4m from the position where the foul occurred"
+      },
+      {
+        "key": "b",
+        "text": "Yes. You must take it from the exact position of the foul"
+      },
+      {
+        "key": "c",
+        "text": "No. You may take it from anywhere on the pitch"
+      },
+      {
+        "key": "d",
+        "text": "Yes, unless the referee moves the ball for the 50m dissent rule"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 83,
+    "question": "Solo & Go: Can you take a solo & go in any direction?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. The solo & go must only be taken in a forwards or sideways direction"
+      },
+      {
+        "key": "b",
+        "text": "Yes. Any direction is allowed"
+      },
+      {
+        "key": "c",
+        "text": "No. Only in a forwards direction"
+      },
+      {
+        "key": "d",
+        "text": "Yes, but not towards your own goal"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 84,
+    "question": "Solo & Go: What happens if you take a solo & go backwards?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "A free kick is awarded to the opposition where the foul occurs"
+      },
+      {
+        "key": "b",
+        "text": "Play continues; the referee may give an advantage"
+      },
+      {
+        "key": "c",
+        "text": "The ball is given to the opposition for a throw-in"
+      },
+      {
+        "key": "d",
+        "text": "A free kick to the opposition on the halfway line"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 85,
+    "question": "Solo & Go: What happens if you take a solo & go beyond 4m from where the foul occurred?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "The referee will cancel the solo & go and ask the player to take the free kick from the position of the foul, from either the hands or from the ground"
+      },
+      {
+        "key": "b",
+        "text": "A free kick is awarded to the opposition"
+      },
+      {
+        "key": "c",
+        "text": "Play continues from where the ball ended up"
+      },
+      {
+        "key": "d",
+        "text": "The referee will award a hop ball"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 86,
+    "question": "Solo & Go: What happens if you delay taking a solo & go?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "If the solo & go is not taken 'immediately' the referee will cancel the solo & go and the free kick will have to be taken from the position of the foul, from either the hands or from the ground"
+      },
+      {
+        "key": "b",
+        "text": "A free kick is awarded to the opposition"
+      },
+      {
+        "key": "c",
+        "text": "The referee will give a verbal warning only"
+      },
+      {
+        "key": "d",
+        "text": "Play continues; no sanction"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 87,
+    "question": "Solo & Go: What does 'immediately' mean?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "After a foul, the solo & go must be taken at once and without delay"
+      },
+      {
+        "key": "b",
+        "text": "Within 5 seconds of the referee's whistle"
+      },
+      {
+        "key": "c",
+        "text": "Before the opposition can set up their defence"
+      },
+      {
+        "key": "d",
+        "text": "On the referee's signal only"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 88,
+    "question": "Solo & Go: Can you take a solo & go after the ball is moved up 50m?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. A solo & go can only be taken 4m from the position where the foul occurred"
+      },
+      {
+        "key": "b",
+        "text": "Yes. You may take a solo & go from the 50m advantage position"
+      },
+      {
+        "key": "c",
+        "text": "Yes, but only from the hands"
+      },
+      {
+        "key": "d",
+        "text": "Only if the referee permits it"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 89,
+    "question": "Goalkeeper receiving a pass: What happens if the goalkeeper steps outside the large rectangle to receive a pass from a teammate?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "A free kick is awarded from where the pass was made"
+      },
+      {
+        "key": "b",
+        "text": "A free kick to the opposition on the 20m line"
+      },
+      {
+        "key": "c",
+        "text": "Play continues; no sanction"
+      },
+      {
+        "key": "d",
+        "text": "A free kick from where the goalkeeper received the ball"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 90,
+    "question": "Goalkeeper receiving a pass: Can you be in the large rectangle, receive a pass from a teammate who is outside the large rectangle, and then pass it to the goalkeeper?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. If you are inside the large rectangle you can only pass to the goalkeeper if the ball has been played by an opposing player – e.g. you catch or intercept an opposition shot, kick or fist pass, before passing to your goalkeeper"
+      },
+      {
+        "key": "b",
+        "text": "Yes. You may receive from a teammate outside and then pass to the goalkeeper"
+      },
+      {
+        "key": "c",
+        "text": "Yes, provided the goalkeeper is inside the small rectangle"
+      },
+      {
+        "key": "d",
+        "text": "No. The goalkeeper can never receive a pass from a teammate inside the large rectangle"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 91,
+    "question": "Goalkeeper receiving a pass: What happens if the goalkeeper intercepts an opposition pass outside the large rectangle?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "They can play on as normal, but cannot receive a return pass from a teammate until they are inside the opposition half"
+      },
+      {
+        "key": "b",
+        "text": "A free kick is awarded to the opposition"
+      },
+      {
+        "key": "c",
+        "text": "They must release the ball immediately; they cannot advance with it"
+      },
+      {
+        "key": "d",
+        "text": "They can play on with no restrictions"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 92,
+    "question": "Goalkeeper receiving a pass: Can the goalkeeper, while in possession, cross back into their own half after receiving a pass from a teammate in the opposition half?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yes"
+      },
+      {
+        "key": "b",
+        "text": "No. Once in the opposition half they cannot return with the ball"
+      },
+      {
+        "key": "c",
+        "text": "Only if they release the ball before crossing the halfway line"
+      },
+      {
+        "key": "d",
+        "text": "Only after an opposition player has touched the ball"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 93,
+    "question": "Goalkeeper receiving a pass: Your full-back blocks a shot outside the 13m line but the momentum of the ball carries it inside the large rectangle. Can the goalkeeper play that ball?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yes. That would not be deemed as 'receiving the ball' from a teammate"
+      },
+      {
+        "key": "b",
+        "text": "No. A free kick is awarded from where the block occurred"
+      },
+      {
+        "key": "c",
+        "text": "No. The goalkeeper cannot play a ball that has been touched by a teammate inside the large rectangle"
+      },
+      {
+        "key": "d",
+        "text": "Only if the ball has crossed the 13m line first"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 94,
+    "question": "Goalkeeper receiving a pass: A high ball is kicked into your full-back line and the ball breaks off the hand of one of your players and drops into the large rectangle. Can the goalkeeper play that ball?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yes. A breaking ball that drops into the large rectangle would not be deemed as 'receiving the ball' from a teammate"
+      },
+      {
+        "key": "b",
+        "text": "No. A free kick is awarded to the opposition"
+      },
+      {
+        "key": "c",
+        "text": "No. Once a teammate has touched the ball it cannot be played by the goalkeeper in the large rectangle"
+      },
+      {
+        "key": "d",
+        "text": "Only if the touch was unintentional"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 95,
+    "question": "Goalkeeper receiving a pass: Can the goalkeeper position themselves anywhere on the field, including for opposition kick-outs?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yes. The goalkeeper can position themselves anywhere on the field of play"
+      },
+      {
+        "key": "b",
+        "text": "No. They must stay inside the large rectangle for opposition kick-outs"
+      },
+      {
+        "key": "c",
+        "text": "Only in their own half"
+      },
+      {
+        "key": "d",
+        "text": "No. They must stay inside the small rectangle until the ball is in play"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 96,
+    "question": "Goalkeeper receiving a pass: What happens if your goalkeeper, who is on your half-back line, receives a pass from a teammate?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "If the goalkeeper catches a pass from a teammate inside their half of the field, a free kick is awarded to the opposition from where the pass is made"
+      },
+      {
+        "key": "b",
+        "text": "Play continues; the half-back line is treated as neutral"
+      },
+      {
+        "key": "c",
+        "text": "A free kick to the opposition on the 20m line"
+      },
+      {
+        "key": "d",
+        "text": "A free kick from where the goalkeeper received the ball"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 97,
+    "question": "Goalkeeper receiving a pass: You're the goalkeeper, outside the large rectangle. Your centre half-back attempts a pass to your corner back but the pass goes over the corner back's head. You leave the large rectangle, go to the ball and start to play it on the ground. Is that allowed because the pass wasn't for you and you didn't pick the ball up?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. Even though you did not receive a direct pass from a teammate you did receive the ball from a teammate. Since you're outside your large rectangle and in your own half, the opposition get a free kick from where your teammate made the attempted pass"
+      },
+      {
+        "key": "b",
+        "text": "Yes. Playing the ball on the ground is allowed"
+      },
+      {
+        "key": "c",
+        "text": "Yes. Because the pass wasn't intended for you it's not a breach"
+      },
+      {
+        "key": "d",
+        "text": "Yes. Because you didn't pick the ball up it's allowed"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 98,
+    "question": "4/3 Structure Rule: Can the goalkeeper be one of the three players you keep in your half of the field?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. You need to keep 3 outfield players in each half of the pitch"
+      },
+      {
+        "key": "b",
+        "text": "Yes. The goalkeeper may count as one of the three"
+      },
+      {
+        "key": "c",
+        "text": "Yes, but only when taking a kick-out"
+      },
+      {
+        "key": "d",
+        "text": "Only in the opposition half"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 99,
+    "question": "4/3 Structure Rule: Is a goalkeeper an outfield player when they are playing outfield?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. An 'outfield player' is defined as any other player other than the goalkeeper"
+      },
+      {
+        "key": "b",
+        "text": "Yes. When the goalkeeper leaves the goal area they count as an outfield player"
+      },
+      {
+        "key": "c",
+        "text": "Yes, when they are in the opposition half"
+      },
+      {
+        "key": "d",
+        "text": "Only for the 4/3 structure count"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 100,
+    "question": "4/3 Structure Rule: Can you put a forward in the goalkeeper's jersey and give his outfield jersey to the goalkeeper, so the goalkeeper wears an outfield jersey but plays in goals and could receive a pass inside the large rectangle in your half?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is a team's decision to allocate jerseys, but you must still keep 3 outfield players in the opposition half when defending. The player in goals must comply with goalkeeper rules (e.g. for kick-outs, stay in small rectangle if not taking it; only the goalkeeper may play the ball on the ground inside the small rectangle)"
+      },
+      {
+        "key": "b",
+        "text": "Yes. Swapping jerseys means the person in the outfield jersey can receive passes in the large rectangle"
+      },
+      {
+        "key": "c",
+        "text": "No. Jerseys must match the player's designated position"
+      },
+      {
+        "key": "d",
+        "text": "No. Only the designated goalkeeper may wear the goalkeeper's jersey"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 101,
+    "question": "4/3 Structure Rule: If your teammate or several teammates are black or red carded, how will that affect the 4/3 structure?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "If a player is ordered off, the team may adjust the number required inside the midfield line so they always have a maximum 11 attacking or maximum 11 defending (excluding the goalkeeper). The team will not be disadvantaged by the 4/3 rule when a player is ordered off"
+      },
+      {
+        "key": "b",
+        "text": "The 4/3 structure no longer applies; the team with fewer players is exempt"
+      },
+      {
+        "key": "c",
+        "text": "The team must still keep exactly 4 in their half and 3 in the opposition half regardless"
+      },
+      {
+        "key": "d",
+        "text": "A free kick is awarded to the opposition each time the structure is broken"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 102,
+    "question": "Scoring: If your foot is on the 40m arc and you score, is that allowed?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yes. If it goes directly over the bar"
+      },
+      {
+        "key": "b",
+        "text": "No. Your whole body must be outside the 40m arc"
+      },
+      {
+        "key": "c",
+        "text": "No. The ball must be struck from outside the arc"
+      },
+      {
+        "key": "d",
+        "text": "Only for a point, not a goal"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 103,
+    "question": "Scoring: You take a kick from outside the arc; it lands in the large rectangle and your full-forward punches it over the crossbar. Is it counted as 1 or 2 points?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 point. A shot for 2 points must go directly over the bar; it only counts as 1 point if it is flicked, palmed or punched over the crossbar by a player on either team"
+      },
+      {
+        "key": "b",
+        "text": "2 points. A point from outside the arc is always 2 points"
+      },
+      {
+        "key": "c",
+        "text": "2 points. Because the initial kick was from outside the arc"
+      },
+      {
+        "key": "d",
+        "text": "No score. The ball was played in the large rectangle before going over"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 104,
+    "question": "Scoring: During an attack one of your players was fouled inside the 40m arc. Do you have the option of taking the free kick outside the 40m arc and attempting a two-point shot?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. The free kick must be taken from the position where the original foul was committed, and this spot should be marked"
+      },
+      {
+        "key": "b",
+        "text": "Yes. You may bring the ball out to the 40m arc for a two-point attempt"
+      },
+      {
+        "key": "c",
+        "text": "Yes, but only if the referee agrees"
+      },
+      {
+        "key": "d",
+        "text": "Only for a free awarded for a 4/3 structure breach"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 105,
+    "question": "Scoring: You took a free kick out of your hands and went past the spot marked by the referee with vanishing foam. Is that okay?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. The referee will cancel your free kick and throw in the ball where the foul occurred"
+      },
+      {
+        "key": "b",
+        "text": "Yes. You may advance up to 4m from the mark"
+      },
+      {
+        "key": "c",
+        "text": "Yes. The mark is only a guide"
+      },
+      {
+        "key": "d",
+        "text": "Only if you were taking a solo & go"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 106,
+    "question": "Advanced Mark: After an Advanced Mark is taken by the attacking team and the player decides to play on by immediately passing backwards to an on-coming attacking player, will the referee deem that advantage to be over?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. The play may continue (no matter which direction the player moves or passes the ball) for as long as the referee deems that there is the potential of an advantage to the attacking team"
+      },
+      {
+        "key": "b",
+        "text": "Yes. A backwards pass ends the advantage"
+      },
+      {
+        "key": "c",
+        "text": "Yes. Once the mark is taken, playing on ends the advantage"
+      },
+      {
+        "key": "d",
+        "text": "Only if the ball goes outside the 45m line"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 107,
+    "question": "Advanced Mark: You play in the full-back line. If an opposition player catches an advanced mark, can you tackle them immediately, or do you have to wait until they take four steps?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yes. You can immediately tackle the player who catches an advanced mark"
+      },
+      {
+        "key": "b",
+        "text": "No. You must wait until they take four steps"
+      },
+      {
+        "key": "c",
+        "text": "You must wait until they signal to take the kick"
+      },
+      {
+        "key": "d",
+        "text": "You may only tackle once they have played the ball"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 108,
+    "question": "Advanced Mark: You caught an Advanced Mark just inside the 20m line, cut inside to go for a goal and an opposition defender wrapped their hands around you. The referee blew for the foul. Do you get a free from where the foul occurred?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "In this scenario you are likely to be awarded a penalty. Rule 5.41 applies when a player is denied a goal-scoring opportunity because an opponent deliberately pulled them down (including being held up), deliberately tripped them, or deliberately collided with them. The offending player will also receive a Black Card"
+      },
+      {
+        "key": "b",
+        "text": "Yes. A free from where the foul occurred"
+      },
+      {
+        "key": "c",
+        "text": "A free from the 13m line"
+      },
+      {
+        "key": "d",
+        "text": "A free from the 20m line only"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 109,
+    "question": "Advanced Mark: An opposition player makes an Advanced Mark and takes a shot at goal that your keeper saves. Can you play on?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. The referee will deem that no advantage has accrued to the team of the player awarded the Mark, will indicate 'no advantage gained' and take the ball back to the point of the Mark"
+      },
+      {
+        "key": "b",
+        "text": "Yes. Your team may play on from the save"
+      },
+      {
+        "key": "c",
+        "text": "Yes. Your keeper may kick out from the save"
+      },
+      {
+        "key": "d",
+        "text": "Only if the shot was outside the 20m line"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 110,
+    "question": "Advanced Mark: An opposition player makes an Advanced Mark and takes a shot that goes wide. What happens?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "The referee will deem that no advantage has accrued to the team of the player awarded the Mark, will indicate 'no advantage gained' and take the ball back to the point of the Mark"
+      },
+      {
+        "key": "b",
+        "text": "Your team gets a kick-out from the end line"
+      },
+      {
+        "key": "c",
+        "text": "Your team may play on from the wide ball"
+      },
+      {
+        "key": "d",
+        "text": "A throw-in to your team from where the ball went out"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 111,
+    "question": "Advanced Mark: An opposition player makes an Advanced Mark and passes to a teammate, and you intercept. Can you play on?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. The referee will deem that no advantage has accrued to the team of the player awarded the Mark, will indicate 'no advantage gained' and take the ball back to the point of the Mark"
+      },
+      {
+        "key": "b",
+        "text": "Yes. Your team may play on from the interception"
+      },
+      {
+        "key": "c",
+        "text": "Yes. An interception always allows play to continue"
+      },
+      {
+        "key": "d",
+        "text": "Only if the pass was outside the 45m line"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 112,
+    "question": "Advanced Mark: You make an Advanced Mark and take the defender on. As you do this you take 6 steps and the referee blows for your foul. What happens next?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Since you committed a 'technical foul' before you had accrued an advantage, the referee will stop play and allow you to take the Mark from its original position"
+      },
+      {
+        "key": "b",
+        "text": "A free kick to the opposition from where you took the 6th step"
+      },
+      {
+        "key": "c",
+        "text": "A free kick to the opposition from the point of the Mark"
+      },
+      {
+        "key": "d",
+        "text": "The referee will throw in the ball where the foul occurred"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 113,
+    "question": "Advanced Mark: You make an Advanced Mark and take the defender on. As you do this you charge at the defender and knock them over. The referee blows for your foul. Can you go back and take a kick from the original position of the Mark?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. You committed an 'aggressive foul' so the referee will award a free kick to the opposition and apply any relevant disciplinary action"
+      },
+      {
+        "key": "b",
+        "text": "Yes. You may take the Mark from its original position"
+      },
+      {
+        "key": "c",
+        "text": "Yes, but you will receive a yellow card"
+      },
+      {
+        "key": "d",
+        "text": "The referee will throw in the ball where the foul occurred"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 114,
+    "question": "Advanced Mark: If you make an Advanced Mark, can you play the ball backwards outside the 40m to create an opportunity for a 2pt shot?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "In theory yes. In practice, unlikely that a referee will allow the advantage to continue in that scenario"
+      },
+      {
+        "key": "b",
+        "text": "Yes. The referee must allow any direction of play"
+      },
+      {
+        "key": "c",
+        "text": "No. You cannot play the ball backwards from an Advanced Mark"
+      },
+      {
+        "key": "d",
+        "text": "No. A 2pt shot cannot be created from a backwards pass"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 115,
+    "question": "Advanced Mark: Your midfielder catches a Kick Out Mark outside your 45m line, then kicks it to inside the opposition 20m line and you catch it. Can that be considered an Advanced Mark?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yes. The rules were amended to allow this scenario from a Kick Out Mark. Note: an Advanced Mark cannot be taken from a free kick or sideline kick"
+      },
+      {
+        "key": "b",
+        "text": "No. An Advanced Mark can only be from a kick from outside the 45m line by the same team in open play"
+      },
+      {
+        "key": "c",
+        "text": "No. A catch from a Kick Out Mark cannot lead to an Advanced Mark"
+      },
+      {
+        "key": "d",
+        "text": "Only if the kick was from the hands"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 116,
+    "question": "Deliberately holding up a player: You have the ball and are taking on the defender. They wrap their arms around you so you cannot move forward. Will you still get a free?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yes. You get a free kick. In addition, the referee will deem this 'Cynical Play for holding up a player' and the defender will receive a Black Card"
+      },
+      {
+        "key": "b",
+        "text": "No. Only a verbal warning to the defender"
+      },
+      {
+        "key": "c",
+        "text": "Yes, a free kick only; no card"
+      },
+      {
+        "key": "d",
+        "text": "A free kick and a yellow card to the defender"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 117,
+    "question": "Delaying the play: You're fouled on your 65m line and about to take a quick free kick when an opposition player blocks you. The referee brings the ball up 50m, which is inside the 40m arc. Can you bring the ball back to the arc and take a free kick for 2pts?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yes. If you are delayed the referee advances the ball 50m (up to opponents' 13m line). If the foul was outside the arc and the advancement brought it inside the arc, you have the option of taking the free from outside the 40m arc for 2pts"
+      },
+      {
+        "key": "b",
+        "text": "No. You must take the free from the 50m advancement position"
+      },
+      {
+        "key": "c",
+        "text": "No. The 2pt option only applies to 4/3 structure frees"
+      },
+      {
+        "key": "d",
+        "text": "Only if the referee permits it"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 118,
+    "question": "Handing the ball back: If you over-carry the ball and the referee calls a foul, can you just drop the ball and get yourself into a defensive position?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. If you don't 'hand over' the ball by giving it directly to the nearest opposition player in a prompt and respectful manner, the referee will consider that you are purposefully delaying play and will advance the ball 50m"
+      },
+      {
+        "key": "b",
+        "text": "Yes. Dropping the ball is sufficient"
+      },
+      {
+        "key": "c",
+        "text": "Yes, as long as you don't throw it"
+      },
+      {
+        "key": "d",
+        "text": "Only if you drop it at the referee's feet"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 119,
+    "question": "Handing the ball back: Your teammate fouled the ball and then kick-passed it to you, and you're 30m from where the foul occurred. What are you supposed to do?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "You need to look for the nearest opposition player and hand them the ball. If you don't, the referee will consider that you are purposely delaying play and will advance the ball 50m"
+      },
+      {
+        "key": "b",
+        "text": "Drop the ball where you are and let the referee place it"
+      },
+      {
+        "key": "c",
+        "text": "Bring the ball back to where the foul occurred"
+      },
+      {
+        "key": "d",
+        "text": "Give the ball to the referee"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 120,
+    "question": "Dissent: You are not the team captain or the nominated deputy, but you don't know why the referee gave a free against you. Surely you can ask them why they made that decision?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "If you do, you will concede a free kick and the ball will be advanced 50m. Only the team captain or a nominated deputy may speak to the referee to seek clarification of a decision, and only during a break in play"
+      },
+      {
+        "key": "b",
+        "text": "Yes. Any player may ask the referee for clarification at any time"
+      },
+      {
+        "key": "c",
+        "text": "Yes, but only after the free kick has been taken"
+      },
+      {
+        "key": "d",
+        "text": "You may ask at the next break in play"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 121,
+    "question": "Dissent: Your manager gave the referee and linesman abuse after a free was awarded against your team. The referee advanced the ball to your 13m line. The opposition player then moved the ball back to the top of the arc and scored a 2-pointer to win. Is that allowed?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yes. If a team official displays misconduct towards Match Officials, the referee awards a free on the offending team's 13m line at centre of the scoring space or, at the free taker's option, a free from the apex of the 40m arc. If that option is taken, two points are awarded for a score over the crossbar between the posts"
+      },
+      {
+        "key": "b",
+        "text": "No. The free must be taken from the 13m line only"
+      },
+      {
+        "key": "c",
+        "text": "No. A score from the arc option can only be 1 point"
+      },
+      {
+        "key": "d",
+        "text": "The referee should have sent the manager to the stand only"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 122,
+    "question": "Moving the ball up: If the referee is moving the ball up 50m, do you need to wait until they bring the ball up to take the free kick?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yes. If the referee is advancing the ball 50m, you need to wait until they re-position the ball. However, you may instead take a solo & go or a free kick from the place where the foul occurred"
+      },
+      {
+        "key": "b",
+        "text": "No. You may take the free as soon as the referee signals"
+      },
+      {
+        "key": "c",
+        "text": "No. You may take from either the original position or the 50m position immediately"
+      },
+      {
+        "key": "d",
+        "text": "Only if you want to take from the 50m position"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 123,
+    "question": "Contributing to a melee: If you go to get your teammate out of a melee, is that okay?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yes, so long as you are solely engaged with trying to remove your teammate who is involved in the melee"
+      },
+      {
+        "key": "b",
+        "text": "No. Entering a melee in any circumstances is an offence"
+      },
+      {
+        "key": "c",
+        "text": "Only if the referee has not yet blown the whistle"
+      },
+      {
+        "key": "d",
+        "text": "Yes, but you may receive a yellow card"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 124,
+    "question": "Contributing to a melee: Your teammate is being pushed around in a melee. Can you go in and try to get the opposition player to stop?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. If you are the 3rd or subsequent player into a melee and you are not solely engaged in trying to remove your teammate, the referee will send you to the Sin Bin"
+      },
+      {
+        "key": "b",
+        "text": "Yes. Trying to stop an opposition player from pushing your teammate is allowed"
+      },
+      {
+        "key": "c",
+        "text": "Yes, as long as you don't make contact"
+      },
+      {
+        "key": "d",
+        "text": "Only the team captain may intervene"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 125,
+    "question": "Stop clock: Can you play on if the referee blows the whistle for the end of the half or game, or if the hooter blows?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. The game immediately ends"
+      },
+      {
+        "key": "b",
+        "text": "Yes. Play continues until the ball goes out of play"
+      },
+      {
+        "key": "c",
+        "text": "Yes, if you are in a goalscoring position"
+      },
+      {
+        "key": "d",
+        "text": "Only after the referee's whistle, not the hooter"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 126,
+    "question": "Stop clock: You're just about to take a shot and the hooter goes. If you scored a point, would it count?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "No. The game ends immediately"
+      },
+      {
+        "key": "b",
+        "text": "Yes. A shot already in motion when the hooter sounds counts if it goes over the bar"
+      },
+      {
+        "key": "c",
+        "text": "Yes, if the ball has left your foot before the hooter"
+      },
+      {
+        "key": "d",
+        "text": "The referee may allow it at their discretion"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 127,
+    "question": "Stop clock: Your team takes a shot and the ball leaves the boot or fist just before the hooter sounds, and it results in a score. Does the score count?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yes. If the ball is in the air after the hooter sounds, a score may be awarded. The ball must go directly over the bar or in the net – it cannot be flicked on by a teammate or opposition player"
+      },
+      {
+        "key": "b",
+        "text": "No. The game ends immediately when the hooter sounds"
+      },
+      {
+        "key": "c",
+        "text": "Only for a point, not a goal"
+      },
+      {
+        "key": "d",
+        "text": "Only if the referee had not yet blown the whistle"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 128,
+    "question": "Stop clock: Your team has been awarded a free kick and the hooter goes. Can you take the free kick?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yes. For the score to count, the ball must go directly over the bar – it cannot be flicked on by a teammate or opposition player"
+      },
+      {
+        "key": "b",
+        "text": "No. The game ends when the hooter sounds; the free kick is not taken"
+      },
+      {
+        "key": "c",
+        "text": "Only if the free was inside the 45m line"
+      },
+      {
+        "key": "d",
+        "text": "The referee decides whether to allow it"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "id": 129,
+    "question": "Stop clock: You have a penalty and the hooter sounds. The penalty is taken, the goalkeeper palms the ball but it still hits the net. Does the goal count even though the keeper touched the ball?",
+    "type": "single",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yes. If a penalty was awarded but not taken before the hooter sounded, the penalty can be taken and if it results in a score (including only the goalkeeper touching the ball), that score shall be awarded"
+      },
+      {
+        "key": "b",
+        "text": "No. Once the goalkeeper touches the ball the goal cannot stand"
+      },
+      {
+        "key": "c",
+        "text": "No. The game had ended when the hooter sounded"
+      },
+      {
+        "key": "d",
+        "text": "The penalty must be retaken if the keeper touched it"
+      }
+    ],
+    "correct": "a"
+  }
+]
