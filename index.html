@@ -39,6 +39,13 @@
     .card.football { border-color: #0d5c0d; }
     .card.football h2 { color: #0d5c0d; margin: 0 0 0.25rem; font-size: 1.1rem; }
     .card small { color: #666; font-size: 0.9rem; }
+    .card-img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-bottom: 0.75rem;
+    }
   </style>
 </head>
 <body>
@@ -46,13 +53,21 @@
   <p>Practice quizzes for the official rules tests. 50 questions per year, 2 marks each, 80% to pass.</p>
 
   <a href="quiz.html" class="card hurling">
+    <img src="assets/hurling-card.png" alt="Hurling" class="card-img">
     <h2>Hurling</h2>
-    <small>Rules test practice – 2025 & 2026</small>
+    <small>Rules test practice</small>
   </a>
 
   <a href="quiz-football.html" class="card football">
+    <img src="assets/football-card.png" alt="Gaelic Football" class="card-img">
     <h2>Gaelic Football</h2>
-    <small>Rules test practice – add questions to get started</small>
+    <small>Rules test practice</small>
+  </a>
+
+  <a href="quiz-football-frc.html" class="card football">
+    <img src="assets/frc-card.png" alt="FRC Rules Review" class="card-img">
+    <h2>FRC Rules Review</h2>
+    <small>Football Review Committee rules & FAQ quiz</small>
   </a>
 </body>
 </html>

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>FRC Rules Review – Practice Quiz</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #f5f5f5;
+      color: #1a1a1a;
+    }
+    .header {
+      background: #0d5c0d;
+      color: white;
+      padding: 0.75rem 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .header h1 { margin: 0; font-size: 1.1rem; }
+    .timer {
+      font-variant-numeric: tabular-nums;
+      background: rgba(255,255,255,0.2);
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+    }
+    .timer.warning { background: #f59e0b; color: #1a1a1a; }
+    .timer.danger { background: #dc2626; animation: pulse 1s ease-in-out infinite; }
+    @keyframes pulse { 50% { opacity: 0.9; } }
+    .container { max-width: 720px; margin: 0 auto; padding: 1rem; }
+    .start-screen, .question-screen, .results-screen { display: none; }
+    .start-screen.active, .question-screen.active, .results-screen.active { display: block; }
+    .start-screen h2 { margin-top: 0; }
+    .start-screen p { color: #555; }
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border: none;
+      border-radius: 6px;
+      background: #0d5c0d;
+      color: white;
+    }
+    .btn:hover { background: #0f7b0f; }
+    .btn:disabled { opacity: 0.6; cursor: not-allowed; }
+    .btn-green { background: #2e7d32; }
+    .btn-green:hover { background: #388e3c; }
+    .card {
+      background: white;
+      border: 1px solid #0d5c0d;
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    .card h3 { margin: 0 0 0.5rem; font-size: 0.9rem; color: #666; }
+    .question-text { font-size: 1.05rem; line-height: 1.5; margin-bottom: 1rem; }
+    .options { list-style: none; padding: 0; margin: 0; }
+    .options li { margin: 0.5rem 0; }
+    .options label {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+      cursor: pointer;
+      padding: 0.4rem 0;
+    }
+    .options input { margin-top: 0.25rem; flex-shrink: 0; }
+    .feedback {
+      margin-top: 1rem;
+      padding: 0.75rem 1rem;
+      border-radius: 6px;
+      display: none;
+    }
+    .feedback.show { display: block; }
+    .feedback.correct { background: #e8f5e9; border: 1px solid #2e7d32; color: #1b5e20; }
+    .feedback.incorrect { background: #ffebee; border: 1px solid #c62828; color: #b71c1c; }
+    .feedback .correct-answer { margin-top: 0.25rem; font-weight: 600; }
+    .nav-row { display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; flex-wrap: wrap; gap: 0.5rem; }
+    .q-num { font-size: 0.9rem; color: #666; }
+    .results-screen .score { font-size: 1.5rem; margin: 1rem 0; }
+    .results-screen .score span { font-weight: 700; color: #0d5c0d; }
+    .results-screen ul { padding-left: 1.25rem; color: #555; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>FRC Rules Review</h1>
+    <span class="timer" id="headerTimer" style="display:none;">30:00</span>
+  </div>
+
+  <div class="container">
+    <div class="start-screen active" id="startScreen">
+      <h2>FRC Rules Review</h2>
+      <p class="quiz-desc">Football Review Committee rules and FAQ. 2 marks each, 80% to pass. Use the timer if you like.</p>
+      <p><label><input type="checkbox" id="useTimer"> Use 30-minute countdown</label></p>
+      <p><a href="index.html" style="color:#0d5c0d;font-size:0.9rem;">← Back to home</a></p>
+      <button type="button" class="btn btn-green" id="startBtn">Start quiz</button>
+    </div>
+
+    <div class="question-screen" id="questionScreen">
+      <div class="card">
+        <h3 class="q-num" id="qNum">Question 1 of 79</h3>
+        <p class="question-text" id="questionText"></p>
+        <p id="instruction" style="margin-bottom:0.5rem;font-size:0.95rem;color:#555;">Select one:</p>
+        <ul class="options" id="options"></ul>
+        <div class="feedback" id="feedback">
+          <span id="feedbackMsg"></span>
+          <div class="correct-answer" id="correctAnswer"></div>
+        </div>
+      </div>
+      <div class="nav-row">
+        <button type="button" class="btn" id="prevBtn" style="visibility:hidden;">Previous</button>
+        <div style="display:flex;gap:0.5rem;align-items:center;">
+          <button type="button" class="btn" id="finishBtn">Finish quiz</button>
+          <button type="button" class="btn btn-green" id="nextBtn">Submit / Next</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="results-screen" id="resultsScreen">
+      <h2>Quiz complete</h2>
+      <p class="score" id="scoreLine"></p>
+      <p id="passLine"></p>
+      <p><strong>Questions you got wrong:</strong></p>
+      <ul id="wrongList"></ul>
+      <p><a href="index.html" style="color:#0d5c0d;">← Back to home</a></p>
+      <button type="button" class="btn" id="restartBtn">Start again</button>
+    </div>
+  </div>
+
+  <script>
+    let questions = [];
+    let currentIndex = 0;
+    let answers = {};
+    let submitted = {};
+    let timerInterval = null;
+    let totalSeconds = 30 * 60;
+    let remainingSeconds = totalSeconds;
+
+    async function loadQuestions() {
+      try {
+        const res = await fetch('data/football-2026-frc.json');
+        if (!res.ok) throw new Error('Not found');
+        questions = await res.json();
+      } catch (e) {
+        questions = [];
+      }
+      if (!questions || questions.length === 0) {
+        var msg = 'Could not load FRC questions. ';
+        if (window.location.protocol === 'file:') {
+          msg += 'This page was opened as a file (file://). Use a local server instead: in the project folder run "npx serve ." then open http://localhost:3000/quiz-football-frc.html';
+        } else {
+          msg += 'Check that data/football-2026-frc.json exists.';
+        }
+        alert(msg);
+        return false;
+      }
+      return true;
+    }
+
+    function shuffle(a) {
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    function formatTime(sec) {
+      const m = Math.floor(sec / 60);
+      const s = sec % 60;
+      return m + ':' + String(s).padStart(2, '0');
+    }
+
+    function startTimer() {
+      remainingSeconds = totalSeconds;
+      const el = document.getElementById('headerTimer');
+      el.style.display = 'inline-block';
+      el.textContent = formatTime(remainingSeconds);
+      el.classList.remove('warning', 'danger');
+      if (timerInterval) clearInterval(timerInterval);
+      timerInterval = setInterval(function() {
+        remainingSeconds--;
+        el.textContent = formatTime(remainingSeconds);
+        el.classList.remove('warning', 'danger');
+        if (remainingSeconds <= 60) el.classList.add('danger');
+        else if (remainingSeconds <= 300) el.classList.add('warning');
+        if (remainingSeconds <= 0) {
+          clearInterval(timerInterval);
+          timerInterval = null;
+        }
+      }, 1000);
+    }
+
+    function renderQuestion() {
+      const q = questions[currentIndex];
+      if (!q) return;
+      document.getElementById('qNum').textContent = 'Question ' + (currentIndex + 1) + ' of ' + questions.length;
+      document.getElementById('questionText').textContent = q.question;
+      document.getElementById('instruction').textContent = q.type === 'multiple' ? 'Select one or more:' : 'Select one:';
+      const opts = document.getElementById('options');
+      opts.innerHTML = '';
+      const inputType = q.type === 'multiple' ? 'checkbox' : 'radio';
+      const name = 'q' + q.id;
+      q.options.forEach(function(opt) {
+        const li = document.createElement('li');
+        const id = name + '_' + opt.key;
+        const input = document.createElement('input');
+        input.type = inputType;
+        input.name = name;
+        input.value = opt.key;
+        input.id = id;
+        if (answers[q.id] && (Array.isArray(answers[q.id]) ? answers[q.id].includes(opt.key) : answers[q.id] === opt.key)) {
+          input.checked = true;
+        }
+        const label = document.createElement('label');
+        label.htmlFor = id;
+        label.appendChild(input);
+        label.appendChild(document.createTextNode(opt.key + '. ' + opt.text));
+        li.appendChild(label);
+        opts.appendChild(li);
+      });
+      const fb = document.getElementById('feedback');
+      fb.classList.remove('show', 'correct', 'incorrect');
+      document.getElementById('nextBtn').textContent = submitted[q.id] ? 'Next' : 'Submit';
+      document.getElementById('prevBtn').style.visibility = currentIndex === 0 ? 'hidden' : 'visible';
+    }
+
+    function getSelected(q) {
+      const name = 'q' + q.id;
+      if (q.type === 'multiple') {
+        const nodes = document.querySelectorAll('input[name="' + name + '"]:checked');
+        return Array.from(nodes).map(function(n) { return n.value; }).sort();
+      }
+      const node = document.querySelector('input[name="' + name + '"]:checked');
+      return node ? node.value : null;
+    }
+
+    function arraysEqual(a, b) {
+      if (!Array.isArray(a) || !Array.isArray(b) || a.length !== b.length) return false;
+      const sa = [...a].sort();
+      const sb = [...b].sort();
+      return sa.every(function(v, i) { return v === sb[i]; });
+    }
+
+    function checkAnswer() {
+      const q = questions[currentIndex];
+      const selected = getSelected(q);
+      if (q.type === 'multiple' && (!selected || selected.length === 0)) return;
+      if (q.type === 'single' && !selected) return;
+      answers[q.id] = selected;
+      const correct = Array.isArray(q.correct) ? q.correct : [q.correct];
+      const correctSorted = [...correct].sort();
+      const isCorrect = q.type === 'multiple' ? arraysEqual(selected, correctSorted) : (selected === q.correct);
+      submitted[q.id] = true;
+      const fb = document.getElementById('feedback');
+      fb.classList.add('show', isCorrect ? 'correct' : 'incorrect');
+      document.getElementById('feedbackMsg').textContent = isCorrect ? 'Your answer is correct.' : 'Your answer is incorrect.';
+      const correctText = Array.isArray(q.correct)
+        ? q.correct.map(function(k) {
+            const o = q.options.find(function(x) { return x.key === k; });
+            return o ? o.key + '. ' + o.text : k;
+          }).join('; ')
+        : (function() {
+            const o = q.options.find(function(x) { return x.key === q.correct; });
+            return o ? o.key + '. ' + o.text : q.correct;
+          })();
+      document.getElementById('correctAnswer').textContent = 'The correct answer is: ' + correctText;
+      document.getElementById('nextBtn').textContent = 'Next';
+    }
+
+    function goNext() {
+      const q = questions[currentIndex];
+      if (!submitted[q.id]) {
+        checkAnswer();
+        return;
+      }
+      if (currentIndex < questions.length - 1) {
+        currentIndex++;
+        renderQuestion();
+      } else {
+        showResults();
+      }
+    }
+
+    function goPrev() {
+      if (currentIndex > 0) {
+        currentIndex--;
+        renderQuestion();
+      }
+    }
+
+    function showResults(early) {
+      if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
+      document.getElementById('headerTimer').style.display = 'none';
+      document.getElementById('questionScreen').classList.remove('active');
+      document.getElementById('resultsScreen').classList.add('active');
+      let correctCount = 0;
+      const wrong = [];
+      const answeredOnly = !!early;
+      questions.forEach(function(q) {
+        if (answeredOnly && !submitted[q.id]) return;
+        const selected = answers[q.id];
+        const correct = Array.isArray(q.correct) ? q.correct : [q.correct];
+        const correctSorted = [...correct].sort();
+        const isCorrect = q.type === 'multiple'
+          ? arraysEqual(selected || [], correctSorted)
+          : (selected === q.correct);
+        if (isCorrect) correctCount++;
+        else wrong.push({ num: wrong.length + 1, q: q, selected: selected });
+      });
+      const totalAnswered = answeredOnly ? Object.keys(submitted).length : questions.length;
+      const totalMarks = totalAnswered * 2;
+      const marks = correctCount * 2;
+      const pct = totalMarks ? Math.round((marks / totalMarks) * 10000) / 100 : 0;
+      let scoreText = 'Score: <span>' + marks + '</span> out of ' + totalMarks + ' (' + pct + '%)';
+      if (answeredOnly && totalAnswered < questions.length) {
+        scoreText = 'You answered ' + totalAnswered + ' of ' + questions.length + ' questions.<br>' + scoreText;
+      }
+      document.getElementById('scoreLine').innerHTML = scoreText;
+      document.getElementById('passLine').textContent = pct >= 80 ? 'Pass (80% required).' : 'Below pass grade (80% required).';
+      const ul = document.getElementById('wrongList');
+      ul.innerHTML = '';
+      if (wrong.length === 0) {
+        ul.innerHTML = '<li>None</li>';
+      } else {
+        wrong.forEach(function(w) {
+          const li = document.createElement('li');
+          li.textContent = 'Q' + w.q.id + ': ' + w.q.question.substring(0, 60) + '...';
+          ul.appendChild(li);
+        });
+      }
+    }
+
+    document.getElementById('startBtn').addEventListener('click', async function() {
+      if (!await loadQuestions()) return;
+      questions = shuffle(questions);
+      currentIndex = 0;
+      answers = {};
+      submitted = {};
+      document.getElementById('startScreen').classList.remove('active');
+      document.getElementById('resultsScreen').classList.remove('active');
+      document.getElementById('questionScreen').classList.add('active');
+      if (document.getElementById('useTimer').checked) startTimer();
+      renderQuestion();
+    });
+
+    document.getElementById('nextBtn').addEventListener('click', goNext);
+    document.getElementById('prevBtn').addEventListener('click', goPrev);
+    document.getElementById('finishBtn').addEventListener('click', function() {
+      showResults(true);
+    });
+    document.getElementById('restartBtn').addEventListener('click', function() {
+      document.getElementById('resultsScreen').classList.remove('active');
+      document.getElementById('startScreen').classList.add('active');
+    });
+  </script>
+</body>
+</html>

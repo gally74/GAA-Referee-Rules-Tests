@@ -100,11 +100,7 @@
   <div class="container">
     <div class="start-screen active" id="startScreen">
       <h2>Practice quiz</h2>
-      <p><label><strong>Quiz:</strong> <select id="quizMode">
-        <option value="50">50 rules test</option>
-        <option value="frc">FRC rules (2026)</option>
-      </select></label></p>
-      <p id="yearLine"><label>Year: <select id="yearSelect"></select></label></p>
+      <p><label>Year: <select id="yearSelect"></select></label></p>
       <p class="quiz-desc">50 questions per year, 2 marks each. Pass grade 80%. Use the 30-minute timer for exam conditions if you like.</p>
       <p><label><input type="checkbox" id="useTimer"> Use 30-minute countdown</label></p>
       <p><a href="index.html" style="color:#0d5c0d;font-size:0.9rem;">← Back to Hurling / Football</a></p>
@@ -165,35 +161,7 @@
       });
     }
 
-    function updateQuizModeUI() {
-      const mode = document.getElementById('quizMode').value;
-      const yearLine = document.getElementById('yearLine');
-      const desc = document.querySelector('.quiz-desc');
-      if (mode === 'frc') {
-        yearLine.style.display = 'none';
-        if (desc) desc.textContent = 'FRC rules and FAQ. 2 marks each, 80% to pass. Use the timer if you like.';
-      } else {
-        yearLine.style.display = 'block';
-        if (desc) desc.textContent = '50 questions per year, 2 marks each. Pass grade 80%. Use the 30-minute timer for exam conditions if you like.';
-      }
-    }
-
     async function loadQuestions(year) {
-      const mode = document.getElementById('quizMode').value;
-      if (mode === 'frc') {
-        try {
-          const res = await fetch('data/football-2026-frc.json');
-          if (!res.ok) throw new Error('Not found');
-          questions = await res.json();
-        } catch (e) {
-          questions = [];
-        }
-        if (!questions || questions.length === 0) {
-          alert('No FRC questions loaded. Add data/football-2026-frc.json');
-          return false;
-        }
-        return true;
-      }
       selectedYear = year || document.getElementById('yearSelect').value;
       try {
         const res = await fetch('data/football-' + selectedYear + '.json');
@@ -384,8 +352,6 @@
     }
 
     initYearSelect();
-    updateQuizModeUI();
-    document.getElementById('quizMode').addEventListener('change', updateQuizModeUI);
 
     document.getElementById('startBtn').addEventListener('click', async function() {
       const year = document.getElementById('yearSelect').value;

@@ -1,0 +1,7 @@
+{
+  "name": "gaa-referee-rules-tests",
+  "private": true,
+  "scripts": {
+    "serve": "npx serve ."
+  }
+}
